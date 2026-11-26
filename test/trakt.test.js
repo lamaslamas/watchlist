@@ -71,3 +71,14 @@ test('buildTitles: ignora elementi senza id TMDB e distingue serie/film con lo s
   const titles = buildTitles(state({ watchlist: [X('movie', 7), X('tv', 7), { media: 'movie', tmdb: null, title: 'x' }] }));
   assert.deepEqual(titles.map(t => t.key).sort(), ['movie:7', 'tv:7']);
 });
+
+test('buildTitles: i titoli extra del repo entrano in watchlist o tra i visti, e Trakt ha la precedenza sui visti', () => {
+  const extra = { watchlist: [X('tv', 20), X('movie', 21)], seen: [X('movie', 22)] };
+  const titles = buildTitles(state({ ratings: [X('movie', 21, { rating: 8, at: '2026-03-03T00:00:00.000Z' })] }), {}, { extra });
+  const by = Object.fromEntries(titles.map(t => [t.key, t]));
+  assert.equal(by['tv:20'].status, 'watchlist');
+  assert.equal(by['movie:21'].status, 'seen'); // votato su Trakt: esce anche se è nell'elenco extra
+  assert.equal(by['movie:21'].watchlisted, false);
+  assert.equal(by['movie:22'].status, 'seen');
+  assert.ok(by['tv:20'].sources.includes('extra'));
+});

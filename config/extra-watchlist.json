@@ -1,0 +1,364 @@
+{
+ "_nota": "Titoli che non entrano su Trakt (limite di 500 voci in watchlist) o visti senza voto: il sync li unisce a ciò che arriva da Trakt.",
+ "watchlist": [
+  {
+   "media": "tv",
+   "tmdb": 2490,
+   "imdb": "tt0487831",
+   "title": "The IT Crowd",
+   "year": 2006
+  },
+  {
+   "media": "tv",
+   "tmdb": 8624,
+   "imdb": "tt0866442",
+   "title": "Eastbound & Down",
+   "year": 2009
+  },
+  {
+   "media": "tv",
+   "tmdb": 3796,
+   "imdb": "tt0290988",
+   "title": "Trailer Park Boys",
+   "year": 2001
+  },
+  {
+   "media": "tv",
+   "tmdb": 17611,
+   "imdb": "tt1299368",
+   "title": "Southland",
+   "year": 2009
+  },
+  {
+   "media": "tv",
+   "tmdb": 32351,
+   "imdb": "tt1621748",
+   "title": "Ugly Americans",
+   "year": 2010
+  },
+  {
+   "media": "tv",
+   "tmdb": 4589,
+   "imdb": "tt0367279",
+   "title": "Arrested Development - Ti presento i miei",
+   "year": 2003
+  },
+  {
+   "media": "tv",
+   "tmdb": 60694,
+   "imdb": "tt3530232",
+   "title": "Last Week Tonight with John Oliver",
+   "year": 2014
+  },
+  {
+   "media": "tv",
+   "tmdb": 3108,
+   "imdb": "tt1031283",
+   "title": "Superjail!",
+   "year": 2007
+  },
+  {
+   "media": "tv",
+   "tmdb": 67752,
+   "imdb": "tt4820370",
+   "title": "Channel Zero",
+   "year": 2016
+  },
+  {
+   "media": "tv",
+   "tmdb": 62046,
+   "imdb": "tt4145384",
+   "title": "Scream Queens",
+   "year": 2015
+  },
+  {
+   "media": "tv",
+   "tmdb": 58474,
+   "imdb": "tt2395695",
+   "title": "Cosmos: Odissea nello spazio",
+   "year": 2014
+  },
+  {
+   "media": "tv",
+   "tmdb": 60811,
+   "imdb": "tt3592032",
+   "title": "Ping Pong the Animation",
+   "year": 2014
+  },
+  {
+   "media": "tv",
+   "tmdb": 65249,
+   "imdb": "tt5249462",
+   "title": "Erased",
+   "year": 2016
+  },
+  {
+   "media": "tv",
+   "tmdb": 67075,
+   "imdb": "tt5897304",
+   "title": "Mob Psycho 100",
+   "year": 2016
+  },
+  {
+   "media": "tv",
+   "tmdb": 61459,
+   "imdb": "tt3358020",
+   "title": "Kiseiju - L'ospite indesiderato",
+   "year": 2014
+  },
+  {
+   "media": "tv",
+   "tmdb": 114410,
+   "imdb": "tt13616990",
+   "title": "Chainsaw Man",
+   "year": 2022
+  },
+  {
+   "media": "tv",
+   "tmdb": 30984,
+   "imdb": "tt14986406",
+   "title": "Bleach: Thousand-Year Blood War",
+   "year": 2022
+  },
+  {
+   "media": "movie",
+   "tmdb": 464039,
+   "imdb": "tt1225757",
+   "title": "Texas Vibrator Massacre",
+   "year": 2008
+  },
+  {
+   "media": "tv",
+   "tmdb": 61585,
+   "imdb": "tt3012698",
+   "title": "Olive Kitteridge",
+   "year": 2014
+  },
+  {
+   "media": "tv",
+   "tmdb": 85723,
+   "imdb": "tt9170108",
+   "title": "Raised by Wolves",
+   "year": 2020
+  },
+  {
+   "media": "tv",
+   "tmdb": 298234,
+   "imdb": "tt37898320",
+   "title": "aka Charlie Sheen",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 39852,
+   "imdb": "tt6048596",
+   "title": "The Sinner",
+   "year": 2017
+  },
+  {
+   "media": "tv",
+   "tmdb": 63535,
+   "imdb": "tt3186130",
+   "title": "Vinyl",
+   "year": 2016
+  },
+  {
+   "media": "tv",
+   "tmdb": 42154,
+   "imdb": "tt2069688",
+   "title": "World War II in Colour",
+   "year": 2009
+  },
+  {
+   "media": "tv",
+   "tmdb": 298682,
+   "imdb": "tt38067673",
+   "title": "Nightmares of Nature: il lato oscuro della natura",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 110492,
+   "imdb": "tt13146488",
+   "title": "Peacemaker",
+   "year": 2022
+  },
+  {
+   "media": "tv",
+   "tmdb": 249039,
+   "imdb": "tt23055142",
+   "title": "Black Rabbit",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 119051,
+   "imdb": "tt13443470",
+   "title": "Mercoledì",
+   "year": 2022
+  },
+  {
+   "media": "tv",
+   "tmdb": 95480,
+   "imdb": "tt5875444",
+   "title": "Slow Horses",
+   "year": 2022
+  },
+  {
+   "media": "tv",
+   "tmdb": 157239,
+   "imdb": "tt13623632",
+   "title": "Alien: Pianeta Terra",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 138505,
+   "imdb": "tt16027014",
+   "title": "Marvel Zombies",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 259909,
+   "imdb": "tt33043892",
+   "title": "Dexter: Resurrection",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 247756,
+   "imdb": "tt29457135",
+   "title": "Il mostro",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 225171,
+   "imdb": "tt22202452",
+   "title": "Pluribus",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 270476,
+   "imdb": "tt33332385",
+   "title": "Widow's Bay",
+   "year": 2026
+  },
+  {
+   "media": "tv",
+   "tmdb": 79525,
+   "imdb": null,
+   "title": "The Last Dance",
+   "year": 2020
+  },
+  {
+   "media": "tv",
+   "tmdb": 75867,
+   "imdb": null,
+   "title": "Mob Psycho 100",
+   "year": 2018
+  },
+  {
+   "media": "tv",
+   "tmdb": 43397,
+   "imdb": null,
+   "title": "Lewis & Clark - The Journey of the Corps of Discovery",
+   "year": 1997
+  },
+  {
+   "media": "movie",
+   "tmdb": 1082100,
+   "imdb": null,
+   "title": "Atomic Wednesdays",
+   "year": 2021
+  },
+  {
+   "media": "tv",
+   "tmdb": 89456,
+   "imdb": null,
+   "title": "Primal",
+   "year": 2019
+  },
+  {
+   "media": "tv",
+   "tmdb": 115004,
+   "imdb": null,
+   "title": "Mare of Easttown",
+   "year": 2021
+  },
+  {
+   "media": "tv",
+   "tmdb": 92137,
+   "imdb": null,
+   "title": "ZeroZeroZero",
+   "year": 2020
+  },
+  {
+   "media": "tv",
+   "tmdb": 318097,
+   "imdb": null,
+   "title": "La macchina cinema",
+   "year": 1979
+  },
+  {
+   "media": "tv",
+   "tmdb": 277439,
+   "imdb": null,
+   "title": "Cape Fear",
+   "year": 2026
+  }
+ ],
+ "seen": [
+  {
+   "media": "movie",
+   "tmdb": 1062722,
+   "imdb": "tt1312221",
+   "title": "Frankenstein",
+   "year": 2025
+  },
+  {
+   "media": "movie",
+   "tmdb": 1061474,
+   "imdb": "tt5950044",
+   "title": "Superman",
+   "year": 2025
+  },
+  {
+   "media": "movie",
+   "tmdb": 1054867,
+   "imdb": "tt30144839",
+   "title": "Una battaglia dopo l'altra",
+   "year": 2025
+  },
+  {
+   "media": "movie",
+   "tmdb": 1339713,
+   "imdb": "tt37287335",
+   "title": "Obsession",
+   "year": 2025
+  },
+  {
+   "media": "movie",
+   "tmdb": 1100988,
+   "imdb": null,
+   "title": "28 Years Later",
+   "year": 2025
+  },
+  {
+   "media": "tv",
+   "tmdb": 226362,
+   "imdb": null,
+   "title": "The Eternaut",
+   "year": 2025
+  },
+  {
+   "media": "movie",
+   "tmdb": 520763,
+   "imdb": null,
+   "title": "A Quiet Place Part II",
+   "year": 2020
+  }
+ ]
+}

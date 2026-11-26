@@ -2,6 +2,7 @@
 //   node src/trakt-seed.js                    → riepilogo (NON scrive nulla su Trakt)
 //   node src/trakt-seed.js --apply            → scrive su Trakt voti e watchlist mancanti
 //   node src/trakt-seed.js --apply --include-watched   → aggiunge anche i "visti senza voto" alla cronologia
+//   node src/trakt-seed.js --write-extra      → salva in config/extra-watchlist.json ciò che non sta su Trakt (limite 500 voci)
 import { p, readJson, writeJson } from './lib/util.js';
 import { readState, trakt } from './lib/trakt.js';
 import { planSeed, seedPayloads, chunkBody } from './lib/trakt-logic.js';
@@ -31,6 +32,19 @@ const series = list => list.filter(t => t.media === 'tv').length;
 console.log(`\nSerie incluse: voti ${series(plan.ratingsMissing)}, watchlist ${series(plan.watchlistMissing)}.`);
 writeJson(p('data', 'state', 'trakt-seed-plan.json'), { generated_at: new Date().toISOString(), counts: payloads.map(x => [x.label, x.count]) });
 
+if (process.argv.includes('--write-extra')) {
+  const path = p('config', 'extra-watchlist.json'), cur = readJson(path, { watchlist: [], seen: [] });
+  const conv = t => ({ media: t.media, tmdb: t.tmdb_id, imdb: t.imdb_id ?? null, title: t.name, year: t.year });
+  const merge = (a, b) => { const m = new Map([...a, ...b].map(x => [`${x.media}:${x.tmdb}`, x])); return [...m.values()]; };
+  const out = {
+    _nota: 'Titoli che non entrano su Trakt (limite di 500 voci in watchlist) o visti senza voto: il sync li unisce a ciò che arriva da Trakt.',
+    watchlist: merge(cur.watchlist ?? [], plan.watchlistMissing.map(conv)),
+    seen: includeWatched ? cur.seen ?? [] : merge(cur.seen ?? [], plan.watchedMissing.map(conv)),
+  };
+  writeJson(path, out);
+  console.log(`\nconfig/extra-watchlist.json: ${out.watchlist.length} in watchlist, ${out.seen.length} visti.`);
+  process.exit(0);
+}
 if (!apply) { console.log('\nDry-run: non ho scritto nulla. Per caricare: node src/trakt-seed.js --apply'); process.exit(0); }
 
 console.log('\n=== SCRITTURA SU TRAKT ===');

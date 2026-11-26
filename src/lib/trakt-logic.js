@@ -53,8 +53,9 @@ export function chunkBody(body, size = 100) {
  * Costruisce i titoli (stessa forma di titles.json) dallo stato Trakt.
  * Visto = ha un voto, oppure film guardato, oppure serie completata (episodi visti / episodi TMDB >= ratio).
  * Una serie iniziata ma non completata e ancora in watchlist resta in watchlist.
+ * `extra` = { watchlist: [...], seen: [...] } con elementi {media, tmdb, imdb, title, year} che vivono solo nel repo.
  */
-export function buildTitles(state, cache = {}, { completionRatio = 0.9 } = {}) {
+export function buildTitles(state, cache = {}, { completionRatio = 0.9, extra = {} } = {}) {
   const map = new Map();
   const get = x => {
     if (!x.tmdb) return null;
@@ -64,6 +65,9 @@ export function buildTitles(state, cache = {}, { completionRatio = 0.9 } = {}) {
   };
   for (const x of state.ratings) { const t = get(x); if (t) { t.my_rating = x.rating; t.rated_at = x.at; t.ratings = [{ src: 'trakt', value: x.rating, date: x.at }]; } }
   for (const x of state.watchlist) { const t = get(x); if (t) t.watchlisted = true; }
+  // Titoli che non stanno su Trakt (limite di 500 voci della watchlist gratuita): config/extra-watchlist.json
+  for (const x of extra.watchlist ?? []) { const t = get(x); if (t) { t.watchlisted = true; if (!t.sources.includes('extra')) t.sources.push('extra'); } }
+  for (const x of extra.seen ?? []) { const t = get(x); if (t) { t.watched = true; if (!t.sources.includes('extra')) t.sources.push('extra'); } }
   for (const x of state.watched) {
     const t = get(x); if (!t) continue;
     t.watched_at = x.at;
