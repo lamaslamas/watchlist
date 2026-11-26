@@ -1,0 +1,21 @@
+{
+  "name": "watchlist",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "import": "node src/import-csv.js",
+    "resolve": "node src/resolve.js",
+    "enrich": "node src/enrich.js",
+    "suggest": "node src/suggest.js",
+    "rank": "node src/rank.js",
+    "validate": "node src/validate.js",
+    "test": "node --test test/ranking.test.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "yaml": "^2.6.0"
+  }
+}

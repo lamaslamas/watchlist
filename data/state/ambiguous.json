@@ -1,0 +1,536 @@
+{
+ "ambiguous": [
+  {
+   "key": "lb:https://boxd.it/SC0q",
+   "title": "Good Boy",
+   "year": 2025,
+   "reason": "più titoli con nome e anno compatibili",
+   "pick": {
+    "media": "movie",
+    "id": 1422096
+   },
+   "candidates": [
+    {
+     "media": "movie",
+     "id": 1422096,
+     "title": "Good Boy",
+     "year": 2025,
+     "votes": 808
+    },
+    {
+     "media": "movie",
+     "id": 1381027,
+     "title": "Good Boy",
+     "year": 2026,
+     "votes": 406
+    },
+    {
+     "media": "tv",
+     "id": 231280,
+     "title": "Good Boy",
+     "year": 2025,
+     "votes": 203
+    },
+    {
+     "media": "movie",
+     "id": 1547088,
+     "title": "Good Boy",
+     "year": 2025,
+     "votes": 0
+    }
+   ]
+  },
+  {
+   "key": "lb:https://boxd.it/5p4m",
+   "title": "+1",
+   "year": 2013,
+   "reason": "più titoli con nome e anno compatibili",
+   "pick": {
+    "media": "movie",
+    "id": 217316
+   },
+   "candidates": [
+    {
+     "media": "movie",
+     "id": 217316,
+     "title": "1",
+     "year": 2013,
+     "votes": 374
+    },
+    {
+     "media": "movie",
+     "id": 176068,
+     "title": "Plus One",
+     "year": 2013,
+     "votes": 293
+    },
+    {
+     "media": "tv",
+     "id": 54303,
+     "title": "SHINee's One Fine Day",
+     "year": 2013,
+     "votes": 1
+    }
+   ]
+  },
+  {
+   "key": "lb:https://boxd.it/4eXS",
+   "title": "Lewis & Clark - The Journey of the Corps of Discovery",
+   "year": 1997,
+   "reason": "più titoli con nome e anno compatibili",
+   "pick": {
+    "media": "tv",
+    "id": 43397
+   },
+   "candidates": [
+    {
+     "media": "tv",
+     "id": 43397,
+     "title": "Lewis & Clark - The Journey of the Corps of Discovery",
+     "year": 1997,
+     "votes": 15
+    },
+    {
+     "media": "movie",
+     "id": 775012,
+     "title": "Lewis & Clark: The Journey of the Corps of Discovery",
+     "year": 1997,
+     "votes": 1
+    }
+   ]
+  }
+ ],
+ "unresolved": [],
+ "accepted_with_year_diff": [
+  {
+   "key": "lb:https://boxd.it/sqFE",
+   "title": "The Black Phone",
+   "year": 2021,
+   "reason": "anno 2022 su TMDB vs 2021",
+   "pick": {
+    "media": "movie",
+    "id": 756999
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/C6uQ",
+   "title": "Talk to Me",
+   "year": 2022,
+   "reason": "anno 2023 su TMDB vs 2022",
+   "pick": {
+    "media": "movie",
+    "id": 1008042
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/riws",
+   "title": "Quo Vadis, Aida?",
+   "year": 2020,
+   "reason": "anno 2021 su TMDB vs 2020",
+   "pick": {
+    "media": "movie",
+    "id": 728118
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/Qzrk",
+   "title": "Mārama",
+   "year": 2025,
+   "reason": "anno 2026 su TMDB vs 2025",
+   "pick": {
+    "media": "movie",
+    "id": 1364953
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/SBUi",
+   "title": "It Ends",
+   "year": 2025,
+   "reason": "anno 2026 su TMDB vs 2025",
+   "pick": {
+    "media": "movie",
+    "id": 1422011
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/PNqo",
+   "title": "Obsession",
+   "year": 2025,
+   "reason": "anno 2026 su TMDB vs 2025",
+   "pick": {
+    "media": "movie",
+    "id": 1339713
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/iTx0",
+   "title": "A Quiet Place Part II",
+   "year": 2020,
+   "reason": "anno 2021 su TMDB vs 2020",
+   "pick": {
+    "media": "movie",
+    "id": 520763
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1QxM",
+   "title": "Seraphim Falls",
+   "year": 2006,
+   "reason": "anno 2007 su TMDB vs 2006",
+   "pick": {
+    "media": "movie",
+    "id": 13249
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/NdC",
+   "title": "The Loved Ones",
+   "year": 2009,
+   "reason": "anno 2010 su TMDB vs 2009",
+   "pick": {
+    "media": "movie",
+    "id": 46420
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1SZS",
+   "title": "Sexy Beast",
+   "year": 2000,
+   "reason": "anno 2001 su TMDB vs 2000",
+   "pick": {
+    "media": "movie",
+    "id": 11826
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1W5a",
+   "title": "In America",
+   "year": 2002,
+   "reason": "anno 2003 su TMDB vs 2002",
+   "pick": {
+    "media": "movie",
+    "id": 10511
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/27Ra",
+   "title": "Away from Her",
+   "year": 2006,
+   "reason": "anno 2007 su TMDB vs 2006",
+   "pick": {
+    "media": "movie",
+    "id": 1919
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/28q0",
+   "title": "Crash",
+   "year": 2004,
+   "reason": "anno 2005 su TMDB vs 2004",
+   "pick": {
+    "media": "movie",
+    "id": 1640
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/3mDu",
+   "title": "The Place Beyond the Pines",
+   "year": 2012,
+   "reason": "anno 2013 su TMDB vs 2012",
+   "pick": {
+    "media": "movie",
+    "id": 97367
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1MOE",
+   "title": "Manic",
+   "year": 2001,
+   "reason": "anno 2002 su TMDB vs 2001",
+   "pick": {
+    "media": "movie",
+    "id": 15098
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/20l2",
+   "title": "Turtles Can Fly",
+   "year": 2004,
+   "reason": "anno 2006 su TMDB vs 2004",
+   "pick": {
+    "media": "movie",
+    "id": 8340
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/4aJM",
+   "title": "Disconnect",
+   "year": 2012,
+   "reason": "anno 2013 su TMDB vs 2012",
+   "pick": {
+    "media": "movie",
+    "id": 127517
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1TPO",
+   "title": "Welcome to the Dollhouse",
+   "year": 1995,
+   "reason": "anno 1996 su TMDB vs 1995",
+   "pick": {
+    "media": "movie",
+    "id": 11446
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/26vs",
+   "title": "Hard Candy",
+   "year": 2005,
+   "reason": "anno 2006 su TMDB vs 2005",
+   "pick": {
+    "media": "movie",
+    "id": 2652
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/2WWK",
+   "title": "You're Next",
+   "year": 2011,
+   "reason": "anno 2013 su TMDB vs 2011",
+   "pick": {
+    "media": "movie",
+    "id": 83899
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/3v8q",
+   "title": "Byzantium",
+   "year": 2012,
+   "reason": "anno 2013 su TMDB vs 2012",
+   "pick": {
+    "media": "movie",
+    "id": 102780
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/41hY",
+   "title": "Resolution",
+   "year": 2012,
+   "reason": "anno 2013 su TMDB vs 2012",
+   "pick": {
+    "media": "movie",
+    "id": 121606
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/H4a",
+   "title": "Submarine",
+   "year": 2010,
+   "reason": "anno 2011 su TMDB vs 2010",
+   "pick": {
+    "media": "movie",
+    "id": 49020
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/3mDa",
+   "title": "Under the Skin",
+   "year": 2013,
+   "reason": "anno 2014 su TMDB vs 2013",
+   "pick": {
+    "media": "movie",
+    "id": 97370
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/3wPA",
+   "title": "Mud",
+   "year": 2012,
+   "reason": "anno 2013 su TMDB vs 2012",
+   "pick": {
+    "media": "movie",
+    "id": 103731
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1y7c",
+   "title": "The Gospel According to St. Matthew",
+   "year": 1964,
+   "reason": "anno 1965 su TMDB vs 1964",
+   "pick": {
+    "media": "movie",
+    "id": 24192
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1Tj4",
+   "title": "Following",
+   "year": 1998,
+   "reason": "anno 1999 su TMDB vs 1998",
+   "pick": {
+    "media": "movie",
+    "id": 11660
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/41Xg",
+   "title": "Frances Ha",
+   "year": 2012,
+   "reason": "anno 2013 su TMDB vs 2012",
+   "pick": {
+    "media": "movie",
+    "id": 121986
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1dy2",
+   "title": "Enter the Void",
+   "year": 2009,
+   "reason": "anno 2010 su TMDB vs 2009",
+   "pick": {
+    "media": "movie",
+    "id": 34647
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/5Ybs",
+   "title": "Begin Again",
+   "year": 2013,
+   "reason": "anno 2014 su TMDB vs 2013",
+   "pick": {
+    "media": "movie",
+    "id": 198277
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1XrQ",
+   "title": "Rescue Dawn",
+   "year": 2006,
+   "reason": "anno 2007 su TMDB vs 2006",
+   "pick": {
+    "media": "movie",
+    "id": 9952
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/dgSy",
+   "title": "Split",
+   "year": 2016,
+   "reason": "anno 2017 su TMDB vs 2016",
+   "pick": {
+    "media": "movie",
+    "id": 381288
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/a75m",
+   "title": "Green Room",
+   "year": 2015,
+   "reason": "anno 2016 su TMDB vs 2015",
+   "pick": {
+    "media": "movie",
+    "id": 313922
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/hCyy",
+   "title": "Terrified",
+   "year": 2017,
+   "reason": "anno 2018 su TMDB vs 2017",
+   "pick": {
+    "media": "movie",
+    "id": 489430
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1NoM",
+   "title": "The Fall",
+   "year": 2006,
+   "reason": "anno 2008 su TMDB vs 2006",
+   "pick": {
+    "media": "movie",
+    "id": 14784
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/CVIk",
+   "title": "Strange Darling",
+   "year": 2023,
+   "reason": "anno 2024 su TMDB vs 2023",
+   "pick": {
+    "media": "movie",
+    "id": 1029281
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1yBw",
+   "title": "Pontypool",
+   "year": 2008,
+   "reason": "anno 2009 su TMDB vs 2008",
+   "pick": {
+    "media": "movie",
+    "id": 23963
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/b2Km",
+   "title": "The Blackcoat's Daughter",
+   "year": 2015,
+   "reason": "anno 2017 su TMDB vs 2015",
+   "pick": {
+    "media": "movie",
+    "id": 334536
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/1SmQ",
+   "title": "Encounters at the End of the World",
+   "year": 2007,
+   "reason": "anno 2008 su TMDB vs 2007",
+   "pick": {
+    "media": "movie",
+    "id": 12172
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/2xZE",
+   "title": "The Grey",
+   "year": 2011,
+   "reason": "anno 2012 su TMDB vs 2011",
+   "pick": {
+    "media": "movie",
+    "id": 75174
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/ndze",
+   "title": "On-Gaku: Our Sound",
+   "year": 2019,
+   "reason": "anno 2020 su TMDB vs 2019",
+   "pick": {
+    "media": "movie",
+    "id": 626767
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/DY2e",
+   "title": "The Coffee Table",
+   "year": 2022,
+   "reason": "anno 2023 su TMDB vs 2022",
+   "pick": {
+    "media": "movie",
+    "id": 1056380
+   }
+  },
+  {
+   "key": "lb:https://boxd.it/VxrW",
+   "title": "Buffet Infinity",
+   "year": 2025,
+   "reason": "anno 2026 su TMDB vs 2025",
+   "pick": {
+    "media": "movie",
+    "id": 1495041
+   }
+  }
+ ]
+}

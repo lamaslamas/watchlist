@@ -1,0 +1,5138 @@
+[
+ {
+  "key": "movie:9003",
+  "media": "movie",
+  "tmdb_id": 9003,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:377",
+  "media": "movie",
+  "tmdb_id": 377,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:9064",
+  "media": "movie",
+  "tmdb_id": 9064,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:10072",
+  "media": "movie",
+  "tmdb_id": 10072,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:13515",
+  "media": "movie",
+  "tmdb_id": 13515,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:579",
+  "media": "movie",
+  "tmdb_id": 579,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lo squalo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1096197",
+  "media": "movie",
+  "tmdb_id": 1096197,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lo squalo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:5876",
+  "media": "movie",
+  "tmdb_id": 5876,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Gli uccelli",
+    "my": 9
+   },
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:343674",
+  "media": "movie",
+  "tmdb_id": 343674,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Gli uccelli",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:11968",
+  "media": "movie",
+  "tmdb_id": 11968,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lo squalo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1063877",
+  "media": "movie",
+  "tmdb_id": 1063877,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Freaks",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:597208",
+  "media": "movie",
+  "tmdb_id": 597208,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Freaks",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:643586",
+  "media": "movie",
+  "tmdb_id": 643586,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Freaks",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:112454",
+  "media": "movie",
+  "tmdb_id": 112454,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Freaks",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:14001",
+  "media": "movie",
+  "tmdb_id": 14001,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Freaks",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:36419",
+  "media": "movie",
+  "tmdb_id": 36419,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Freaks",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1041613",
+  "media": "movie",
+  "tmdb_id": 1041613,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1234731",
+  "media": "movie",
+  "tmdb_id": 1234731,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:622",
+  "media": "movie",
+  "tmdb_id": 622,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:626",
+  "media": "movie",
+  "tmdb_id": 626,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:229",
+  "media": "movie",
+  "tmdb_id": 229,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:588",
+  "media": "movie",
+  "tmdb_id": 588,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:609",
+  "media": "movie",
+  "tmdb_id": 609,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:755",
+  "media": "movie",
+  "tmdb_id": 755,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:765",
+  "media": "movie",
+  "tmdb_id": 765,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:768",
+  "media": "movie",
+  "tmdb_id": 768,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'esorcista",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2112",
+  "media": "movie",
+  "tmdb_id": 2112,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Freaks",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "C'era una volta in America",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Taxi Driver",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Amores perros",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2116",
+  "media": "movie",
+  "tmdb_id": 2116,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Freaks",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Gran Torino",
+    "my": 9
+   },
+   {
+    "type": "recommendations",
+    "seed": "Il delitto perfetto",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2119",
+  "media": "movie",
+  "tmdb_id": 2119,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Freaks",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2636",
+  "media": "movie",
+  "tmdb_id": 2636,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2637",
+  "media": "movie",
+  "tmdb_id": 2637,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Amarcord",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2654",
+  "media": "movie",
+  "tmdb_id": 2654,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2671",
+  "media": "movie",
+  "tmdb_id": 2671,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2787",
+  "media": "movie",
+  "tmdb_id": 2787,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2118",
+  "media": "movie",
+  "tmdb_id": 2118,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2454",
+  "media": "movie",
+  "tmdb_id": 2454,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2501",
+  "media": "movie",
+  "tmdb_id": 2501,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2502",
+  "media": "movie",
+  "tmdb_id": 2502,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lo squalo",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:301",
+  "media": "movie",
+  "tmdb_id": 301,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli spietati",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:642",
+  "media": "movie",
+  "tmdb_id": 642,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli spietati",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:581",
+  "media": "movie",
+  "tmdb_id": 581,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli spietati",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:938",
+  "media": "movie",
+  "tmdb_id": 938,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli spietati",
+    "my": 10
+   },
+   {
+    "type": "director",
+    "seed": "Sergio Leone",
+    "my": 10,
+    "bestTitle": "C'era una volta in America"
+   }
+  ]
+ },
+ {
+  "key": "movie:188161",
+  "media": "movie",
+  "tmdb_id": 188161,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gli spietati",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:273248",
+  "media": "movie",
+  "tmdb_id": 273248,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gli spietati",
+    "my": 10
+   },
+   {
+    "type": "director",
+    "seed": "Quentin Tarantino",
+    "my": 10,
+    "bestTitle": "Pulp Fiction"
+   }
+  ]
+ },
+ {
+  "key": "movie:618162",
+  "media": "movie",
+  "tmdb_id": 618162,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gli spietati",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:11967",
+  "media": "movie",
+  "tmdb_id": 11967,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gli spietati",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:842924",
+  "media": "movie",
+  "tmdb_id": 842924,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Amarcord",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2105",
+  "media": "movie",
+  "tmdb_id": 2105,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Amarcord",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2280",
+  "media": "movie",
+  "tmdb_id": 2280,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Amarcord",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:6479",
+  "media": "movie",
+  "tmdb_id": 6479,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:273271",
+  "media": "movie",
+  "tmdb_id": 273271,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8092",
+  "media": "movie",
+  "tmdb_id": 8092,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8224",
+  "media": "movie",
+  "tmdb_id": 8224,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Taxi Driver",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Pulp Fiction",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8271",
+  "media": "movie",
+  "tmdb_id": 8271,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2001",
+  "media": "movie",
+  "tmdb_id": 2001,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Pulp Fiction",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "La 25ª ora",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:442249",
+  "media": "movie",
+  "tmdb_id": 442249,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:807356",
+  "media": "movie",
+  "tmdb_id": 807356,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Gli uccelli",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:345",
+  "media": "movie",
+  "tmdb_id": 345,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   },
+   {
+    "type": "director",
+    "seed": "Stanley Kubrick",
+    "my": 10,
+    "bestTitle": "Shining"
+   }
+  ]
+ },
+ {
+  "key": "movie:471506",
+  "media": "movie",
+  "tmdb_id": 471506,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8999",
+  "media": "movie",
+  "tmdb_id": 8999,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rosemary's baby: nastro rosso a New York",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:302699",
+  "media": "movie",
+  "tmdb_id": 302699,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Un borghese piccolo piccolo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:302946",
+  "media": "movie",
+  "tmdb_id": 302946,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Un borghese piccolo piccolo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:247",
+  "media": "movie",
+  "tmdb_id": 247,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Un borghese piccolo piccolo",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Psyco",
+    "my": 10
+   },
+   {
+    "type": "director",
+    "seed": "Stanley Kubrick",
+    "my": 10,
+    "bestTitle": "Shining"
+   }
+  ]
+ },
+ {
+  "key": "movie:2493",
+  "media": "movie",
+  "tmdb_id": 2493,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Un borghese piccolo piccolo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:2907",
+  "media": "movie",
+  "tmdb_id": 2907,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Un borghese piccolo piccolo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:270487",
+  "media": "movie",
+  "tmdb_id": 270487,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Un borghese piccolo piccolo",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:44603",
+  "media": "movie",
+  "tmdb_id": 44603,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La dolce vita",
+    "my": 10
+   },
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:179144",
+  "media": "movie",
+  "tmdb_id": 179144,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La dolce vita",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:551",
+  "media": "movie",
+  "tmdb_id": 551,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La dolce vita",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:266",
+  "media": "movie",
+  "tmdb_id": 266,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La dolce vita",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "I 400 colpi",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:303",
+  "media": "movie",
+  "tmdb_id": 303,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La dolce vita",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "I 400 colpi",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "The Elephant Man",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:308",
+  "media": "movie",
+  "tmdb_id": 308,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La dolce vita",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:310",
+  "media": "movie",
+  "tmdb_id": 310,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La dolce vita",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:468",
+  "media": "movie",
+  "tmdb_id": 468,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La dolce vita",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "The Elephant Man",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:488",
+  "media": "movie",
+  "tmdb_id": 488,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La dolce vita",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:389",
+  "media": "movie",
+  "tmdb_id": 389,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La dolce vita",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "I 400 colpi",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "The Elephant Man",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:979",
+  "media": "movie",
+  "tmdb_id": 979,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "I 400 colpi",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:293",
+  "media": "movie",
+  "tmdb_id": 293,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "I 400 colpi",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:350",
+  "media": "movie",
+  "tmdb_id": 350,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "I 400 colpi",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:404",
+  "media": "movie",
+  "tmdb_id": 404,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "I 400 colpi",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:405",
+  "media": "movie",
+  "tmdb_id": 405,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "I 400 colpi",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   },
+   {
+    "type": "director",
+    "seed": "Federico Fellini",
+    "my": 10,
+    "bestTitle": "La dolce vita"
+   }
+  ]
+ },
+ {
+  "key": "movie:2005",
+  "media": "movie",
+  "tmdb_id": 2005,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Pulp Fiction",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8741",
+  "media": "movie",
+  "tmdb_id": 8741,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8916",
+  "media": "movie",
+  "tmdb_id": 8916,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:9595",
+  "media": "movie",
+  "tmdb_id": 9595,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:37137",
+  "media": "movie",
+  "tmdb_id": 37137,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:9255",
+  "media": "movie",
+  "tmdb_id": 9255,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:75",
+  "media": "movie",
+  "tmdb_id": 75,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1137844",
+  "media": "movie",
+  "tmdb_id": 1137844,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:36593",
+  "media": "movie",
+  "tmdb_id": 36593,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:11072",
+  "media": "movie",
+  "tmdb_id": 11072,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8872",
+  "media": "movie",
+  "tmdb_id": 8872,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il dottor Stranamore, ovvero: come ho imparato a non preoccuparmi e ad amare la bomba",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:10142",
+  "media": "movie",
+  "tmdb_id": 10142,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Il cacciatore",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:10590",
+  "media": "movie",
+  "tmdb_id": 10590,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:10015",
+  "media": "movie",
+  "tmdb_id": 10015,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:2604",
+  "media": "movie",
+  "tmdb_id": 2604,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   },
+   {
+    "type": "recommendations",
+    "seed": "Il cacciatore",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2742",
+  "media": "movie",
+  "tmdb_id": 2742,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:457799",
+  "media": "movie",
+  "tmdb_id": 457799,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2103",
+  "media": "movie",
+  "tmdb_id": 2103,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Full Metal Jacket",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:126889",
+  "media": "movie",
+  "tmdb_id": 126889,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:70981",
+  "media": "movie",
+  "tmdb_id": 70981,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8077",
+  "media": "movie",
+  "tmdb_id": 8077,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:16320",
+  "media": "movie",
+  "tmdb_id": 16320,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1272",
+  "media": "movie",
+  "tmdb_id": 1272,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:9348",
+  "media": "movie",
+  "tmdb_id": 9348,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:597890",
+  "media": "movie",
+  "tmdb_id": 597890,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:9276",
+  "media": "movie",
+  "tmdb_id": 9276,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:395992",
+  "media": "movie",
+  "tmdb_id": 395992,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:644",
+  "media": "movie",
+  "tmdb_id": 644,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:698",
+  "media": "movie",
+  "tmdb_id": 698,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:281",
+  "media": "movie",
+  "tmdb_id": 281,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:395",
+  "media": "movie",
+  "tmdb_id": 395,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:782",
+  "media": "movie",
+  "tmdb_id": 782,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:790",
+  "media": "movie",
+  "tmdb_id": 790,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:563",
+  "media": "movie",
+  "tmdb_id": 563,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Alien",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:538362",
+  "media": "movie",
+  "tmdb_id": 538362,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Ladri di biciclette",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:304357",
+  "media": "movie",
+  "tmdb_id": 304357,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Ladri di biciclette",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:3112",
+  "media": "movie",
+  "tmdb_id": 3112,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Ladri di biciclette",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Amores perros",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:3116",
+  "media": "movie",
+  "tmdb_id": 3116,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Ladri di biciclette",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Amores perros",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Gran Torino",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:11171",
+  "media": "movie",
+  "tmdb_id": 11171,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "C'era una volta in America",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Taxi Driver",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:3131",
+  "media": "movie",
+  "tmdb_id": 3131,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "C'era una volta in America",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Taxi Driver",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Gran Torino",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:4413",
+  "media": "movie",
+  "tmdb_id": 4413,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "C'era una volta in America",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Taxi Driver",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:501170",
+  "media": "movie",
+  "tmdb_id": 501170,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:3021",
+  "media": "movie",
+  "tmdb_id": 3021,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1197137",
+  "media": "movie",
+  "tmdb_id": 1197137,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:381283",
+  "media": "movie",
+  "tmdb_id": 381283,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:833425",
+  "media": "movie",
+  "tmdb_id": 833425,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1430077",
+  "media": "movie",
+  "tmdb_id": 1430077,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:7340",
+  "media": "movie",
+  "tmdb_id": 7340,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Shining",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:11033",
+  "media": "movie",
+  "tmdb_id": 11033,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:3594",
+  "media": "movie",
+  "tmdb_id": 3594,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:419835",
+  "media": "movie",
+  "tmdb_id": 419835,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:502416",
+  "media": "movie",
+  "tmdb_id": 502416,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:653",
+  "media": "movie",
+  "tmdb_id": 653,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:658",
+  "media": "movie",
+  "tmdb_id": 658,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:691",
+  "media": "movie",
+  "tmdb_id": 691,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Psyco",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:244",
+  "media": "movie",
+  "tmdb_id": 244,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Psyco",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:251",
+  "media": "movie",
+  "tmdb_id": 251,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Psyco",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:187",
+  "media": "movie",
+  "tmdb_id": 187,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Taxi Driver",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:483906",
+  "media": "movie",
+  "tmdb_id": 483906,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:1439930",
+  "media": "movie",
+  "tmdb_id": 1439930,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:884",
+  "media": "movie",
+  "tmdb_id": 884,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:544401",
+  "media": "movie",
+  "tmdb_id": 544401,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Il cacciatore",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:638",
+  "media": "movie",
+  "tmdb_id": 638,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:189",
+  "media": "movie",
+  "tmdb_id": 189,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:209276",
+  "media": "movie",
+  "tmdb_id": 209276,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8374",
+  "media": "movie",
+  "tmdb_id": 8374,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Pulp Fiction",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:8090",
+  "media": "movie",
+  "tmdb_id": 8090,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Pulp Fiction",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:296",
+  "media": "movie",
+  "tmdb_id": 296,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:479",
+  "media": "movie",
+  "tmdb_id": 479,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:483",
+  "media": "movie",
+  "tmdb_id": 483,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:387",
+  "media": "movie",
+  "tmdb_id": 387,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:392",
+  "media": "movie",
+  "tmdb_id": 392,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "movie:398",
+  "media": "movie",
+  "tmdb_id": 398,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fight Club",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:60059",
+  "media": "tv",
+  "tmdb_id": 60059,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:80968",
+  "media": "tv",
+  "tmdb_id": 80968,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:71694",
+  "media": "tv",
+  "tmdb_id": 71694,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:63351",
+  "media": "tv",
+  "tmdb_id": 63351,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:66025",
+  "media": "tv",
+  "tmdb_id": 66025,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:66676",
+  "media": "tv",
+  "tmdb_id": 66676,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:40008",
+  "media": "tv",
+  "tmdb_id": 40008,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:81358",
+  "media": "tv",
+  "tmdb_id": 81358,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:194764",
+  "media": "tv",
+  "tmdb_id": 194764,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:135868",
+  "media": "tv",
+  "tmdb_id": 135868,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   },
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:137893",
+  "media": "tv",
+  "tmdb_id": 137893,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:71715",
+  "media": "tv",
+  "tmdb_id": 71715,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:64199",
+  "media": "tv",
+  "tmdb_id": 64199,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:100010",
+  "media": "tv",
+  "tmdb_id": 100010,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:54650",
+  "media": "tv",
+  "tmdb_id": 54650,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Breaking Bad",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:90972",
+  "media": "tv",
+  "tmdb_id": 90972,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:199001",
+  "media": "tv",
+  "tmdb_id": 199001,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:48866",
+  "media": "tv",
+  "tmdb_id": 48866,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:109958",
+  "media": "tv",
+  "tmdb_id": 109958,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:90870",
+  "media": "tv",
+  "tmdb_id": 90870,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:87049",
+  "media": "tv",
+  "tmdb_id": 87049,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:80213",
+  "media": "tv",
+  "tmdb_id": 80213,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:72787",
+  "media": "tv",
+  "tmdb_id": 72787,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:211288",
+  "media": "tv",
+  "tmdb_id": 211288,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:99581",
+  "media": "tv",
+  "tmdb_id": 99581,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:216082",
+  "media": "tv",
+  "tmdb_id": 216082,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Chernobyl",
+    "my": 10
+   }
+  ]
+ },
+ {
+  "key": "tv:66433",
+  "media": "tv",
+  "tmdb_id": 66433,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Breaking Bad",
+    "my": 10
+   },
+   {
+    "type": "similar",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2639",
+  "media": "movie",
+  "tmdb_id": 2639,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2640",
+  "media": "movie",
+  "tmdb_id": 2640,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2757",
+  "media": "movie",
+  "tmdb_id": 2757,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "La 25ª ora",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "American Beauty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:466081",
+  "media": "movie",
+  "tmdb_id": 466081,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:396371",
+  "media": "movie",
+  "tmdb_id": 396371,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1213",
+  "media": "movie",
+  "tmdb_id": 1213,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:203",
+  "media": "movie",
+  "tmdb_id": 203,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La 25ª ora",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:169917",
+  "media": "movie",
+  "tmdb_id": 169917,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:4982",
+  "media": "movie",
+  "tmdb_id": 4982,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La 25ª ora",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:709631",
+  "media": "movie",
+  "tmdb_id": 709631,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gli uccelli",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:460885",
+  "media": "movie",
+  "tmdb_id": 460885,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli uccelli",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   },
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8688",
+  "media": "movie",
+  "tmdb_id": 8688,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli uccelli",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8909",
+  "media": "movie",
+  "tmdb_id": 8909,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli uccelli",
+    "my": 9
+   },
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   },
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8914",
+  "media": "movie",
+  "tmdb_id": 8914,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli uccelli",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8834",
+  "media": "movie",
+  "tmdb_id": 8834,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Gli uccelli",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:634528",
+  "media": "movie",
+  "tmdb_id": 634528,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Amores perros",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2114",
+  "media": "movie",
+  "tmdb_id": 2114,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2605",
+  "media": "movie",
+  "tmdb_id": 2605,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2977",
+  "media": "movie",
+  "tmdb_id": 2977,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2289",
+  "media": "movie",
+  "tmdb_id": 2289,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2362",
+  "media": "movie",
+  "tmdb_id": 2362,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2898",
+  "media": "movie",
+  "tmdb_id": 2898,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Amores perros",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Gran Torino",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:3133",
+  "media": "movie",
+  "tmdb_id": 3133,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Amores perros",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:301875",
+  "media": "movie",
+  "tmdb_id": 301875,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:31011",
+  "media": "movie",
+  "tmdb_id": 31011,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:522402",
+  "media": "movie",
+  "tmdb_id": 522402,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:157353",
+  "media": "movie",
+  "tmdb_id": 157353,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:329865",
+  "media": "movie",
+  "tmdb_id": 329865,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:24420",
+  "media": "movie",
+  "tmdb_id": 24420,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:636",
+  "media": "movie",
+  "tmdb_id": 636,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2277",
+  "media": "movie",
+  "tmdb_id": 2277,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:269795",
+  "media": "movie",
+  "tmdb_id": 269795,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:795",
+  "media": "movie",
+  "tmdb_id": 795,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:227156",
+  "media": "movie",
+  "tmdb_id": 227156,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:42188",
+  "media": "movie",
+  "tmdb_id": 42188,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Lei",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:651",
+  "media": "movie",
+  "tmdb_id": 651,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:654",
+  "media": "movie",
+  "tmdb_id": 654,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:663",
+  "media": "movie",
+  "tmdb_id": 663,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:239",
+  "media": "movie",
+  "tmdb_id": 239,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:269",
+  "media": "movie",
+  "tmdb_id": 269,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:279",
+  "media": "movie",
+  "tmdb_id": 279,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:7972",
+  "media": "movie",
+  "tmdb_id": 7972,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:73567",
+  "media": "movie",
+  "tmdb_id": 73567,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:154400",
+  "media": "movie",
+  "tmdb_id": 154400,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Fargo",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:602223",
+  "media": "movie",
+  "tmdb_id": 602223,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:76640",
+  "media": "movie",
+  "tmdb_id": 76640,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8398",
+  "media": "movie",
+  "tmdb_id": 8398,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:12690",
+  "media": "movie",
+  "tmdb_id": 12690,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1480",
+  "media": "movie",
+  "tmdb_id": 1480,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1082195",
+  "media": "movie",
+  "tmdb_id": 1082195,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:273481",
+  "media": "movie",
+  "tmdb_id": 273481,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:438",
+  "media": "movie",
+  "tmdb_id": 438,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:306",
+  "media": "movie",
+  "tmdb_id": 306,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   },
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:314",
+  "media": "movie",
+  "tmdb_id": 314,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:475",
+  "media": "movie",
+  "tmdb_id": 475,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:381",
+  "media": "movie",
+  "tmdb_id": 381,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:391",
+  "media": "movie",
+  "tmdb_id": 391,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Non è un paese per vecchi",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Sergio Leone",
+    "my": 10,
+    "bestTitle": "C'era una volta in America"
+   }
+  ]
+ },
+ {
+  "key": "movie:2655",
+  "media": "movie",
+  "tmdb_id": 2655,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2140",
+  "media": "movie",
+  "tmdb_id": 2140,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:458156",
+  "media": "movie",
+  "tmdb_id": 458156,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:203801",
+  "media": "movie",
+  "tmdb_id": 203801,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:7451",
+  "media": "movie",
+  "tmdb_id": 7451,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:522241",
+  "media": "movie",
+  "tmdb_id": 522241,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:296098",
+  "media": "movie",
+  "tmdb_id": 296098,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1087891",
+  "media": "movie",
+  "tmdb_id": 1087891,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:11665",
+  "media": "movie",
+  "tmdb_id": 11665,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1029575",
+  "media": "movie",
+  "tmdb_id": 1029575,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:956",
+  "media": "movie",
+  "tmdb_id": 956,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:353081",
+  "media": "movie",
+  "tmdb_id": 353081,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:9486",
+  "media": "movie",
+  "tmdb_id": 9486,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:137094",
+  "media": "movie",
+  "tmdb_id": 137094,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Intrigo internazionale",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:414425",
+  "media": "movie",
+  "tmdb_id": 414425,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gran Torino",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:398978",
+  "media": "movie",
+  "tmdb_id": 398978,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gran Torino",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:487558",
+  "media": "movie",
+  "tmdb_id": 487558,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gran Torino",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:11358",
+  "media": "movie",
+  "tmdb_id": 11358,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gran Torino",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:458220",
+  "media": "movie",
+  "tmdb_id": 458220,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Gran Torino",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8202",
+  "media": "movie",
+  "tmdb_id": 8202,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:8373",
+  "media": "movie",
+  "tmdb_id": 8373,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1894",
+  "media": "movie",
+  "tmdb_id": 1894,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1995",
+  "media": "movie",
+  "tmdb_id": 1995,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1996",
+  "media": "movie",
+  "tmdb_id": 1996,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1948",
+  "media": "movie",
+  "tmdb_id": 1948,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2085",
+  "media": "movie",
+  "tmdb_id": 2085,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Kill Bill: Volume 1",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:839369",
+  "media": "movie",
+  "tmdb_id": 839369,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "American Beauty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:301502",
+  "media": "movie",
+  "tmdb_id": 301502,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "American Beauty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:619979",
+  "media": "movie",
+  "tmdb_id": 619979,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "American Beauty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:574060",
+  "media": "movie",
+  "tmdb_id": 574060,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:617502",
+  "media": "movie",
+  "tmdb_id": 617502,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:414419",
+  "media": "movie",
+  "tmdb_id": 414419,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Quentin Tarantino",
+    "my": 10,
+    "bestTitle": "Pulp Fiction"
+   }
+  ]
+ },
+ {
+  "key": "movie:552688",
+  "media": "movie",
+  "tmdb_id": 552688,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:541671",
+  "media": "movie",
+  "tmdb_id": 541671,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:539885",
+  "media": "movie",
+  "tmdb_id": 539885,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:11412",
+  "media": "movie",
+  "tmdb_id": 11412,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:62835",
+  "media": "movie",
+  "tmdb_id": 62835,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:50456",
+  "media": "movie",
+  "tmdb_id": 50456,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:324552",
+  "media": "movie",
+  "tmdb_id": 324552,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Kill Bill: Volume 2",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2539",
+  "media": "movie",
+  "tmdb_id": 2539,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "American Beauty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:845",
+  "media": "movie",
+  "tmdb_id": 845,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il delitto perfetto",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:996",
+  "media": "movie",
+  "tmdb_id": 996,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Il delitto perfetto",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:17360",
+  "media": "movie",
+  "tmdb_id": 17360,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Roma città aperta",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:152760",
+  "media": "movie",
+  "tmdb_id": 152760,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Roma città aperta",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:10110",
+  "media": "movie",
+  "tmdb_id": 10110,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Roma città aperta",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:467244",
+  "media": "movie",
+  "tmdb_id": 467244,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Roma città aperta",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:2719",
+  "media": "tv",
+  "tmdb_id": 2719,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Parks and Recreation",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:316029",
+  "media": "movie",
+  "tmdb_id": 316029,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "The Elephant Man",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:11005",
+  "media": "movie",
+  "tmdb_id": 11005,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "The Elephant Man",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:866",
+  "media": "movie",
+  "tmdb_id": 866,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "The Elephant Man",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:112336",
+  "media": "movie",
+  "tmdb_id": 112336,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "8½",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:294016",
+  "media": "movie",
+  "tmdb_id": 294016,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "8½",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:397837",
+  "media": "movie",
+  "tmdb_id": 397837,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "8½",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1106739",
+  "media": "movie",
+  "tmdb_id": 1106739,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "8½",
+    "my": 9
+   },
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:614560",
+  "media": "movie",
+  "tmdb_id": 614560,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "8½",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:1020006",
+  "media": "movie",
+  "tmdb_id": 1020006,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "8½",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:60935",
+  "media": "movie",
+  "tmdb_id": 60935,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:10153",
+  "media": "movie",
+  "tmdb_id": 10153,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:4858",
+  "media": "movie",
+  "tmdb_id": 4858,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:548473",
+  "media": "movie",
+  "tmdb_id": 548473,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:378018",
+  "media": "movie",
+  "tmdb_id": 378018,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "La cosa",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:586863",
+  "media": "movie",
+  "tmdb_id": 586863,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:470044",
+  "media": "movie",
+  "tmdb_id": 470044,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:9702",
+  "media": "movie",
+  "tmdb_id": 9702,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:277216",
+  "media": "movie",
+  "tmdb_id": 277216,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "movie:2503",
+  "media": "movie",
+  "tmdb_id": 2503,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "L'odio",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:4546",
+  "media": "tv",
+  "tmdb_id": 4546,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Parks and Recreation",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:2947",
+  "media": "tv",
+  "tmdb_id": 2947,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Parks and Recreation",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:97645",
+  "media": "tv",
+  "tmdb_id": 97645,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:73157",
+  "media": "tv",
+  "tmdb_id": 73157,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:135934",
+  "media": "tv",
+  "tmdb_id": 135934,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:1433",
+  "media": "tv",
+  "tmdb_id": 1433,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:86831",
+  "media": "tv",
+  "tmdb_id": 86831,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:105248",
+  "media": "tv",
+  "tmdb_id": 105248,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:261579",
+  "media": "tv",
+  "tmdb_id": 261579,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:90855",
+  "media": "tv",
+  "tmdb_id": 90855,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:62413",
+  "media": "tv",
+  "tmdb_id": 62413,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:44856",
+  "media": "tv",
+  "tmdb_id": 44856,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:72039",
+  "media": "tv",
+  "tmdb_id": 72039,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:3322",
+  "media": "tv",
+  "tmdb_id": 3322,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:278178",
+  "media": "tv",
+  "tmdb_id": 278178,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:81357",
+  "media": "tv",
+  "tmdb_id": 81357,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:116799",
+  "media": "tv",
+  "tmdb_id": 116799,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:66276",
+  "media": "tv",
+  "tmdb_id": 66276,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:87428",
+  "media": "tv",
+  "tmdb_id": 87428,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:107113",
+  "media": "tv",
+  "tmdb_id": 107113,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:186",
+  "media": "tv",
+  "tmdb_id": 186,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:67384",
+  "media": "tv",
+  "tmdb_id": 67384,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:1411",
+  "media": "tv",
+  "tmdb_id": 1411,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Orange Is the New Black",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:66786",
+  "media": "tv",
+  "tmdb_id": 66786,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:66958",
+  "media": "tv",
+  "tmdb_id": 66958,
+  "via": [
+   {
+    "type": "similar",
+    "seed": "Rick and Morty",
+    "my": 9
+   }
+  ]
+ },
+ {
+  "key": "tv:114695",
+  "media": "tv",
+  "tmdb_id": 114695,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "The World at War",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:66185",
+  "media": "tv",
+  "tmdb_id": 66185,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "The World at War",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "tv:105288",
+  "media": "tv",
+  "tmdb_id": 105288,
+  "via": [
+   {
+    "type": "recommendations",
+    "seed": "The World at War",
+    "my": 8
+   }
+  ]
+ },
+ {
+  "key": "movie:260",
+  "media": "movie",
+  "tmdb_id": 260,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:506",
+  "media": "movie",
+  "tmdb_id": 506,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:574",
+  "media": "movie",
+  "tmdb_id": 574,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:1580",
+  "media": "movie",
+  "tmdb_id": 1580,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:4174",
+  "media": "movie",
+  "tmdb_id": 4174,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:940",
+  "media": "movie",
+  "tmdb_id": 940,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:21734",
+  "media": "movie",
+  "tmdb_id": 21734,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:426",
+  "media": "movie",
+  "tmdb_id": 426,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Alfred Hitchcock",
+    "my": 10,
+    "bestTitle": "Psyco"
+   }
+  ]
+ },
+ {
+  "key": "movie:66",
+  "media": "movie",
+  "tmdb_id": 66,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:70",
+  "media": "movie",
+  "tmdb_id": 70,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:688",
+  "media": "movie",
+  "tmdb_id": 688,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:10747",
+  "media": "movie",
+  "tmdb_id": 10747,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:5551",
+  "media": "movie",
+  "tmdb_id": 5551,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:10650",
+  "media": "movie",
+  "tmdb_id": 10650,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:22954",
+  "media": "movie",
+  "tmdb_id": 22954,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:11901",
+  "media": "movie",
+  "tmdb_id": 11901,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:8879",
+  "media": "movie",
+  "tmdb_id": 8879,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:9559",
+  "media": "movie",
+  "tmdb_id": 9559,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:88794",
+  "media": "movie",
+  "tmdb_id": 88794,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:190859",
+  "media": "movie",
+  "tmdb_id": 190859,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:363676",
+  "media": "movie",
+  "tmdb_id": 363676,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:453201",
+  "media": "movie",
+  "tmdb_id": 453201,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:504172",
+  "media": "movie",
+  "tmdb_id": 504172,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:292011",
+  "media": "movie",
+  "tmdb_id": 292011,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:749274",
+  "media": "movie",
+  "tmdb_id": 749274,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Clint Eastwood",
+    "my": 10,
+    "bestTitle": "Gli spietati"
+   }
+  ]
+ },
+ {
+  "key": "movie:5",
+  "media": "movie",
+  "tmdb_id": 5,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Quentin Tarantino",
+    "my": 10,
+    "bestTitle": "Pulp Fiction"
+   }
+  ]
+ },
+ {
+  "key": "movie:285923",
+  "media": "movie",
+  "tmdb_id": 285923,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Quentin Tarantino",
+    "my": 10,
+    "bestTitle": "Pulp Fiction"
+   }
+  ]
+ },
+ {
+  "key": "movie:466272",
+  "media": "movie",
+  "tmdb_id": 466272,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Quentin Tarantino",
+    "my": 10,
+    "bestTitle": "Pulp Fiction"
+   }
+  ]
+ },
+ {
+  "key": "movie:967",
+  "media": "movie",
+  "tmdb_id": 967,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Stanley Kubrick",
+    "my": 10,
+    "bestTitle": "Shining"
+   }
+  ]
+ },
+ {
+  "key": "movie:3175",
+  "media": "movie",
+  "tmdb_id": 3175,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Stanley Kubrick",
+    "my": 10,
+    "bestTitle": "Shining"
+   }
+  ]
+ },
+ {
+  "key": "movie:62",
+  "media": "movie",
+  "tmdb_id": 62,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Stanley Kubrick",
+    "my": 10,
+    "bestTitle": "Shining"
+   }
+  ]
+ },
+ {
+  "key": "movie:138",
+  "media": "movie",
+  "tmdb_id": 138,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Tod Browning",
+    "my": 10,
+    "bestTitle": "Freaks"
+   }
+  ]
+ },
+ {
+  "key": "movie:336",
+  "media": "movie",
+  "tmdb_id": 336,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Sergio Leone",
+    "my": 10,
+    "bestTitle": "C'era una volta in America"
+   }
+  ]
+ },
+ {
+  "key": "movie:335",
+  "media": "movie",
+  "tmdb_id": 335,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Sergio Leone",
+    "my": 10,
+    "bestTitle": "C'era una volta in America"
+   }
+  ]
+ },
+ {
+  "key": "movie:1628",
+  "media": "movie",
+  "tmdb_id": 1628,
+  "via": [
+   {
+    "type": "director",
+    "seed": "François Truffaut",
+    "my": 10,
+    "bestTitle": "I 400 colpi"
+   }
+  ]
+ },
+ {
+  "key": "movie:1714",
+  "media": "movie",
+  "tmdb_id": 1714,
+  "via": [
+   {
+    "type": "director",
+    "seed": "François Truffaut",
+    "my": 10,
+    "bestTitle": "I 400 colpi"
+   }
+  ]
+ },
+ {
+  "key": "movie:1598",
+  "media": "movie",
+  "tmdb_id": 1598,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:1578",
+  "media": "movie",
+  "tmdb_id": 1578,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:2567",
+  "media": "movie",
+  "tmdb_id": 2567,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:10436",
+  "media": "movie",
+  "tmdb_id": 10436,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:10843",
+  "media": "movie",
+  "tmdb_id": 10843,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:11051",
+  "media": "movie",
+  "tmdb_id": 11051,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:8649",
+  "media": "movie",
+  "tmdb_id": 8649,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:44826",
+  "media": "movie",
+  "tmdb_id": 44826,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:68730",
+  "media": "movie",
+  "tmdb_id": 68730,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:466420",
+  "media": "movie",
+  "tmdb_id": 466420,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ },
+ {
+  "key": "movie:262",
+  "media": "movie",
+  "tmdb_id": 262,
+  "via": [
+   {
+    "type": "director",
+    "seed": "Martin Scorsese",
+    "my": 10,
+    "bestTitle": "Taxi Driver"
+   }
+  ]
+ }
+]

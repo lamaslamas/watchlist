@@ -1,0 +1,6 @@
+data/raw/
+.env
+.env.*
+node_modules/
+.DS_Store
+data/state/sources.json

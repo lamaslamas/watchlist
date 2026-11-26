@@ -1,0 +1,88 @@
+{
+ "baseline": {
+  "lambda": 0.4,
+  "k": 3,
+  "weights": {
+   "genres": 0.2,
+   "directors": 0.3,
+   "cast": 0.15,
+   "countries": 0.15,
+   "decade": 0.1,
+   "keywords": 0.1
+  },
+  "steep": 1,
+  "wT": 0.65,
+  "m": {
+   "spearman": 0.5529934091427371,
+   "train": 0.5263517889889968,
+   "test": 0.6053940451925606,
+   "top50": 8.64
+  }
+ },
+ "A": {
+  "lambda": 0.4,
+  "k": 1,
+  "steep": 0.62,
+  "wT": 0.4,
+  "weights": {
+   "genres": 0.287,
+   "directors": 0.043,
+   "cast": 0.17,
+   "countries": 0,
+   "decade": 0.254,
+   "keywords": 0.246
+  },
+  "m": {
+   "spearman": 0.6985609569307398,
+   "train": 0.7008409022028752,
+   "test": 0.6917260960753103,
+   "top50": 8.8
+  },
+  "countryCorr": -0.173,
+  "countryZeroed": false
+ },
+ "B": {
+  "lambda": 0.4,
+  "k": 3,
+  "steep": 0.54,
+  "wT": 0.432,
+  "weights": {
+   "genres": 0.366,
+   "directors": 0.025,
+   "cast": 0.133,
+   "countries": 0,
+   "decade": 0.383,
+   "keywords": 0.092
+  },
+  "m": {
+   "spearman": 0.6979194654120664,
+   "train": 0.696973108817292,
+   "test": 0.6988985317444233,
+   "top50": 8.9
+  },
+  "countryCorr": -0.162,
+  "countryZeroed": true
+ },
+ "C": {
+  "lambda": 1.5,
+  "k": 3,
+  "steep": 0.52,
+  "wT": 0.609,
+  "weights": {
+   "genres": 0.132,
+   "directors": 0.134,
+   "cast": 0.17,
+   "countries": 0,
+   "decade": 0.139,
+   "keywords": 0.424
+  },
+  "m": {
+   "spearman": 0.6643173218536339,
+   "train": 0.667441784907924,
+   "test": 0.6469962746562431,
+   "top50": 8.82
+  },
+  "countryCorr": -0.174,
+  "countryZeroed": true
+ }
+}

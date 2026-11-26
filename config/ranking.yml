@@ -1,0 +1,63 @@
+# Configurazione del ranking. Modifica i numeri e rigenera: nessun valore è nel codice.
+# Tutti i voti sono su scala 0-10 (Letterboxd x2, IMDb e Trakt invariati).
+
+profile:
+  # Smorzamento: peso(f) = somma(segnale_i) / (n_f + k). Più k è alto, meno contano le caratteristiche viste poche volte.
+  k: 3
+  # segnale_i = (mio_voto - voto_medio_TMDB) + lambda * (mio_voto - mia_media_voti)
+  lambda: 1.5     # set C della ricerca (src/tune.js, reports/tuning.md)
+
+# Pesi delle caratteristiche nell'affinità T (somma 1.0)
+affinity:
+  weights:
+    genres: 0.132
+    directors: 0.134  # registi (film) / creatori (serie)
+    cast: 0.170       # primi 5 attori
+    countries: 0.0    # azzerato: in validazione leave-one-out correla negativamente (-0.17)
+    decade: 0.139
+    keywords: 0.425   # keyword TMDB, media dei pesi delle keyword presenti
+  # Se un titolo ha una caratteristica mai incontrata nel profilo, contribuisce 0 (neutro).
+  # Quanto è ripida la sigmoide che porta T in 0-1 (più alto = più contrasto)
+  sigmoid_steepness: 0.52
+
+# Qualità Q: media bayesiana TMDB
+quality:
+  m: 500            # voti "di prior"
+  global_mean: 6.5  # media di riferimento C
+  floor: 5          # voto che vale Q=0
+  ceiling: 10       # voto che vale Q=1
+
+# Punteggio finale = 100 * (w_taste * T + w_quality * Q)
+score:
+  movie:  { taste: 0.609, quality: 0.391 }
+  # Poche serie votate: il gusto pesa meno finché non ce ne sono di più
+  tv:     { taste: 0.40, quality: 0.60 }
+  # Sotto questo numero di serie votate si usa il peso "tv"; sopra, quello "movie"
+  tv_min_rated_for_movie_weights: 15
+
+# Fasce per percentile sulla watchlist (dall'alto). Le quote sommano 1.0
+bands:
+  - { name: "Assolutamente da vedere", share: 0.10 }
+  - { name: "Molto probabile",         share: 0.25 }
+  - { name: "Forse",                   share: 0.35 }
+  - { name: "Rimandabile",             share: 0.30 }
+
+# Suggeriti fuori dalla watchlist
+suggestions:
+  seed_top_rated: 40         # partenza dai titoli votati più alto
+  seed_top_rated_tv: 8       # seed aggiuntivi: le serie votate più alto (altrimenti i film le sommergono)
+  min_vote_count: 1000       # scarta i film con meno voti TMDB
+  min_vote_count_tv: 300     # soglia separata per le serie (su TMDB hanno meno voti)
+  max_items: 100
+  top_directors: 10          # altre opere dei registi con peso più alto
+  # Per ogni seed: raccomandazioni e "simili" TMDB
+  sources: [recommendations, similar, top_director_filmography]
+
+# Importazione e matching
+matching:
+  year_tolerance: 2          # anno Letterboxd/TMDB: differenza massima accettata (uscita festival vs nazionale)
+
+tmdb:
+  language: it-IT
+  region: IT
+  providers_refresh_days: 7
