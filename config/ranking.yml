@@ -37,10 +37,10 @@ score:
 
 # Fasce per percentile sulla watchlist (dall'alto). Le quote sommano 1.0
 bands:
-  - { name: "Assolutamente da vedere", share: 0.10 }
-  - { name: "Molto probabile",         share: 0.25 }
-  - { name: "Forse",                   share: 0.35 }
-  - { name: "Rimandabile",             share: 0.30 }
+  - { name: "Assolutamente da vedere", short: "Imperdibile", share: 0.10 }
+  - { name: "Molto probabile", short: "Probabile",         share: 0.25 }
+  - { name: "Forse", short: "Forse",                   share: 0.35 }
+  - { name: "Rimandabile", short: "Rimandabile",             share: 0.30 }
 
 # Suggeriti fuori dalla watchlist
 suggestions:
