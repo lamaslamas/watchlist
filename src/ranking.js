@@ -189,3 +189,24 @@ export function explain(item, result, profile, maxReasons = 2) {
   return { reasons, text: text.charAt(0).toUpperCase() + text.slice(1) + '.' };
 }
 const labelOf = t => ({ genres: 'i generi', directors: 'il regista', cast: 'il cast', countries: 'il paese', decade: 'il periodo', keywords: 'i temi' }[t]);
+
+/**
+ * Calcolo completo a partire dai dati del sito (items.json) — usato dal browser e dai test.
+ * `seen` = titoli segnati come visti in locale: { key: { my } } (my su scala 0-10).
+ * I visti escono da watchlist/suggeriti ed entrano nel profilo con il loro voto.
+ */
+export function computeAll(data, seen = {}) {
+  const cfg = data.cfg;
+  const everything = [...data.watchlist, ...data.suggestions];
+  const localRated = [];
+  for (const it of everything) if (seen[it.key]?.my != null) localRated.push({ key: it.key, media: it.media, title: it.title, my: seen[it.key].my, d: it.d });
+  const profile = buildProfile([...data.rated, ...localRated], cfg);
+  const pool = data.watchlist.filter(it => !seen[it.key]);
+  const scorer = makeScorer(pool, profile, cfg);
+  const wl = pool.map(it => ({ it, res: scorer(it) }));
+  const cutoffs = bandCutoffs(wl.map(x => x.res.score), cfg);
+  const wrap = ({ it, res }) => { const ex = explain(it, res, profile); return { it, score: res.score, T: res.T, Q: res.Q, band: bandOf(res.score, cutoffs), why: ex.text }; };
+  const sg = data.suggestions.filter(it => !seen[it.key]).map(it => ({ it, res: scorer(it) }));
+  const byScore = (a, b) => b.score - a.score;
+  return { profile, cutoffs, watchlist: wl.map(wrap).sort(byScore), suggestions: sg.map(wrap).sort(byScore) };
+}

@@ -3,13 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>watchlist — pagina di prova</title>
+<title>watchlist</title>
+<meta name="description" content="La mia watchlist di film e serie, ordinata in base ai miei gusti.">
 <meta name="theme-color" content="#0d0d0f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d0d0f'/%3E%3Cpath d='m16 6 2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L16 20.8l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z' fill='%23e9b44c'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://image.tmdb.org">
 <link rel="stylesheet" href="style.css">
+<script>try { document.documentElement.dataset.theme = JSON.parse(localStorage.getItem('wl-theme')) || 'dark'; } catch {}</script>
 </head>
 <body>
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -18,12 +21,15 @@
 
 <header class="top">
   <div class="wrap top-row">
-    <a class="brand" href="./preview.html" aria-label="watchlist">watchlist</a>
+    <a class="brand" href="./" aria-label="watchlist">watchlist</a>
     <nav class="tabs" role="tablist" aria-label="Sezioni">
       <button class="tab" role="tab" id="tab-wl" aria-selected="true">La mia watchlist<span class="n" id="n-wl"></span></button>
       <button class="tab" role="tab" id="tab-sg" aria-selected="false">Suggeriti per te<span class="n" id="n-sg"></span></button>
     </nav>
     <span class="spacer"></span>
+    <button class="icon-btn" id="open-export" aria-label="Esporta" title="Esporta CSV">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11M7.5 10.5 12 15l4.5-4.5M4.5 19.5h15"/></svg>
+    </button>
     <button class="icon-btn" id="theme" aria-label="Cambia tema chiaro/scuro" title="Tema">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"/></svg>
     </button>
@@ -53,9 +59,9 @@
 
 <main class="wrap">
   <div class="summary" id="summary" aria-live="polite"></div>
-  <div class="grid" id="grid"></div>
+  <div class="grid" id="grid"><div class="empty">Caricamento…</div></div>
   <footer>
-    Pagina di prova con 20 titoli reali della tua watchlist e 8 suggeriti. Il punteggio combina i tuoi gusti con la qualità media del pubblico.
+    <span id="updated"></span> Il punteggio combina i tuoi gusti (da Trakt) con la qualità media del pubblico.
     <br>Dati, locandine e piattaforme: TMDB. Questo prodotto usa le API di TMDB ma non è approvato né certificato da TMDB.
   </footer>
 </main>
@@ -70,6 +76,8 @@
     </div></div>
   <div class="group"><span class="lbl">Fascia</span><div class="chips" id="g-band"></div></div>
   <div class="group"><label for="f-genre">Genere</label><select class="select" id="f-genre"></select></div>
+  <div class="group"><span class="lbl">Anno</span>
+    <div class="range"><input class="field" id="f-yfrom" type="number" inputmode="numeric" min="1890" max="2100" placeholder="Da" aria-label="Anno da"><span>–</span><input class="field" id="f-yto" type="number" inputmode="numeric" min="1890" max="2100" placeholder="A" aria-label="Anno a"></div></div>
   <div class="group"><label for="f-decade">Decennio</label><select class="select" id="f-decade"></select></div>
   <div class="group"><label for="f-country">Paese</label><select class="select" id="f-country"></select></div>
   <div class="group"><label for="f-dir">Regista</label><input class="field" id="f-dir" list="dl-dir" placeholder="Nome del regista" autocomplete="off"><datalist id="dl-dir"></datalist></div>
@@ -77,11 +85,25 @@
   <div class="panel-foot"><button class="btn" id="reset">Azzera</button><button class="btn primary" id="apply">Mostra</button></div>
 </aside>
 
+<aside class="sheet panel" id="export" role="dialog" aria-modal="true" aria-labelledby="export-title" aria-hidden="true">
+  <div class="panel-head"><h2 id="export-title">Esporta</h2><button class="icon-btn" id="close-export" aria-label="Chiudi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <p class="note" style="margin:0 0 18px">CSV nel formato di importazione di Letterboxd (<a href="https://letterboxd.com/import/" target="_blank" rel="noopener">letterboxd.com/import</a>). Solo film: Letterboxd non gestisce le serie.</p>
+  <div class="group"><span class="lbl">Nuovi visti</span>
+    <label class="note" for="f-since" style="margin:0 0 6px;display:block">Film votati dopo il</label>
+    <input class="field" id="f-since" type="date">
+    <p class="note" id="since-info"></p>
+    <button class="btn primary" id="x-new" style="width:100%;margin-top:6px">Esporta per Letterboxd</button></div>
+  <div class="group"><span class="lbl">Altro</span>
+    <button class="btn" id="x-ratings" style="width:100%;margin-bottom:8px">Tutti i miei voti (film)</button>
+    <button class="btn" id="x-list" style="width:100%">Lista ordinata come la vedi (film)</button></div>
+  <div class="group"><button class="btn" id="x-undo" style="width:100%" hidden>Ripristina i titoli segnati come visti qui</button></div>
+</aside>
+
 <article class="sheet detail" id="detail" role="dialog" aria-modal="true" aria-labelledby="d-title" aria-hidden="true">
   <button class="icon-btn close" id="close-detail" aria-label="Chiudi scheda"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
   <div class="detail-in" id="detail-in"></div>
 </article>
 <div class="toast" id="toast" role="status"></div>
-<script src="preview.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>

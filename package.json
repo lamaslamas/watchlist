@@ -12,7 +12,8 @@
     "suggest": "node src/suggest.js",
     "rank": "node src/rank.js",
     "validate": "node src/validate.js",
-    "test": "node --test test/ranking.test.js"
+    "test": "node --test test/ranking.test.js test/site-data.test.js",
+    "build": "node src/build.js"
   },
   "dependencies": {
     "csv-parse": "^5.6.0",
