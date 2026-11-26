@@ -66,3 +66,13 @@ trakt:
   # Una serie esce dalla watchlist quando gli episodi visti / episodi totali (TMDB) raggiungono questa quota.
   # Una serie con voto su Trakt è invece sempre considerata vista.
   show_completion_ratio: 0.9
+
+# Addon Stremio/Nuvio (solo cataloghi)
+addon:
+  base_url: "https://lamaslamas.github.io/watchlist"   # dove Pages serve il sito (serve solo per mostrare l'URL da installare)
+  short_runtime_max: 100        # catalogo "Sotto i 100 minuti" (solo film)
+  directors_min_seen: 2         # "Registi che ami": registi con almeno N titoli votati...
+  directors_top: 15             # ...e tra i primi N per peso nel profilo
+  suggestions_movie: 100        # suggeriti film nel catalogo
+  suggestions_tv: 50            # suggeriti serie nel catalogo (separati dal ranking del sito)
+

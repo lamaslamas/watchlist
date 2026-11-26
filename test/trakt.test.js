@@ -82,3 +82,8 @@ test('buildTitles: i titoli extra del repo entrano in watchlist o tra i visti, e
   assert.equal(by['movie:22'].status, 'seen');
   assert.ok(by['tv:20'].sources.includes('extra'));
 });
+
+test('buildTitles: le voci in elenco "ignore" non entrano nei titoli', () => {
+  const titles = buildTitles(state({ watchlist: [X('movie', 1), X('movie', 2)] }), {}, { ignore: ['movie:2'] });
+  assert.deepEqual(titles.map(t => t.key), ['movie:1']);
+});

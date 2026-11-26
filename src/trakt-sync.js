@@ -12,7 +12,8 @@ writeJson(p('data', 'state', 'trakt.json'), state);
 
 const cache = readJson(p('data', 'cache', 'tmdb.json'), {});
 const extra = readJson(p('config', 'extra-watchlist.json'), {});
-const titles = buildTitles(state, cache, { completionRatio: cfg.trakt?.show_completion_ratio ?? 0.9, extra });
+const ignore = (readJson(p('config', 'ignore-titles.json'), {}).ignore ?? []).map(x => x.key);
+const titles = buildTitles(state, cache, { completionRatio: cfg.trakt?.show_completion_ratio ?? 0.9, extra, ignore });
 const prev = readJson(p('data', 'state', 'titles.json'), []);
 const relevant = titles.filter(t => t.status !== 'other');
 if (!force && prev.length && relevant.length < prev.length * 0.5) {

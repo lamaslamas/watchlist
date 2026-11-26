@@ -1,0 +1,9 @@
+{
+  "_nota": "Voci presenti su Trakt ma abbinate al titolo sbagliato: il sync le ignora. Rimuovile anche da Trakt quando vuoi.",
+  "ignore": [
+    {
+      "key": "movie:217316",
+      "motivo": "'+1' (2013) è 'Plus One' (176068), non '1: Life on the Limit'"
+    }
+  ]
+}

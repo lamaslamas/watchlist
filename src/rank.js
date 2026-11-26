@@ -3,7 +3,7 @@ import { p, writeJson } from './lib/util.js';
 import { loadItems } from './lib/data.js';
 import { buildProfile, makeScorer, bandCutoffs, bandOf, explain, TYPES } from './ranking.js';
 
-const { cfg, rated, watchlist, cache, seenKeys } = loadItems();
+const { cfg, rated, watchlist, cache, seenKeys, titles } = loadItems();
 const profile = buildProfile(rated, cfg);
 const scorer = makeScorer(watchlist, profile, cfg);
 
@@ -24,9 +24,12 @@ const watchlistOut = wl.map(({ it, res }) => {
 // Suggeriti
 import fs from 'node:fs';
 const cands = JSON.parse(fs.existsSync(p('data', 'state', 'suggestions.json')) ? fs.readFileSync(p('data', 'state', 'suggestions.json'), 'utf8') : '[]');
+// Lo stesso titolo può avere più voci su TMDB (es. un film e una serie con lo stesso ID IMDb): escludo i suggeriti
+// il cui ID IMDb è già tra i titoli che conosco (watchlist, visti, votati)
+const knownImdb = new Set(titles.map(t => t.imdb_id ?? cache[t.key]?.data?.imdb_id).filter(Boolean));
 const scored = [];
 for (const c of cands) {
-  const e = cache[c.key]; if (!e || seenKeys.has(c.key)) continue;
+  const e = cache[c.key]; if (!e || seenKeys.has(c.key) || knownImdb.has(e.data.imdb_id)) continue;
   const it = { key: c.key, media: c.media, tmdb_id: c.tmdb_id, title: e.data.title, d: e.data };
   if ((e.data.vote_count ?? 0) < (c.media === 'tv' ? cfg.suggestions.min_vote_count_tv : cfg.suggestions.min_vote_count)) continue;
   const res = scorer(it);
@@ -38,7 +41,13 @@ for (const c of cands) {
     : `consigliato da TMDB a chi ha amato «${via.seed}» (${stars(via.my)})`;
   scored.push(out(it, res, { band: bandOf(res.score, cutoffs), why: ex.text, reasons: [viaText, ...ex.reasons], via: viaText, sources: [...new Set(c.via.map(v => v.type))] }));
 }
-const suggestionsOut = scored.sort((a, b) => b.score - a.score).slice(0, cfg.suggestions.max_items);
+scored.sort((a, b) => b.score - a.score);
+const suggestionsOut = scored.slice(0, cfg.suggestions.max_items);
+// Per l'addon i suggeriti sono separati per tipo (altrimenti le serie, con punteggi più bassi, non comparirebbero)
+const suggestionsAddon = {
+  movie: scored.filter(x => x.media === 'movie').slice(0, cfg.addon.suggestions_movie),
+  tv: scored.filter(x => x.media === 'tv').slice(0, cfg.addon.suggestions_tv),
+};
 
 // Riassunto del profilo (per il sito e per controllarlo a occhio)
 const names = { genres: new Map(), directors: new Map(), cast: new Map(), keywords: new Map() };
@@ -55,7 +64,7 @@ for (const t of TYPES) {
 
 writeJson(p('data', 'state', 'ranking.json'), {
   cutoffs, profile: { rated: profile.count, meanMy: +profile.meanMy.toFixed(2), tvRated: profile.tvRated, summary },
-  watchlist: watchlistOut, suggestions: suggestionsOut,
+  watchlist: watchlistOut, suggestions: suggestionsOut, suggestions_addon: suggestionsAddon,
 });
 
 // ---- Report a terminale ----

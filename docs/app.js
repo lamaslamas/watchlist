@@ -263,3 +263,11 @@ fetch('data/items.json').then(r => r.json()).then(d => {
   render();
   $('#updated').textContent = `Aggiornato il ${new Date(d.generated_at).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })}.`;
 }).catch(() => { $('#grid').innerHTML = '<div class="empty"><b>Dati non caricati</b>Riprova tra poco.</div>'; });
+
+// ---- Addon Stremio/Nuvio: link di installazione e URL del manifest ----
+const manifestUrl = new URL('manifest.json', location.href).href;
+$('#addon-link').href = `stremio://${manifestUrl.replace(/^https?:\/\//, '')}`;
+$('#addon-copy').onclick = async () => {
+  try { await navigator.clipboard.writeText(manifestUrl); toast('URL copiato: incollalo in Stremio o Nuvio (Addon → Installa da URL)'); }
+  catch { prompt('Copia questo URL e incollalo in Stremio o Nuvio:', manifestUrl); }
+};

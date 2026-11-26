@@ -55,7 +55,7 @@ export function chunkBody(body, size = 100) {
  * Una serie iniziata ma non completata e ancora in watchlist resta in watchlist.
  * `extra` = { watchlist: [...], seen: [...] } con elementi {media, tmdb, imdb, title, year} che vivono solo nel repo.
  */
-export function buildTitles(state, cache = {}, { completionRatio = 0.9, extra = {} } = {}) {
+export function buildTitles(state, cache = {}, { completionRatio = 0.9, extra = {}, ignore = [] } = {}) {
   const map = new Map();
   const get = x => {
     if (!x.tmdb) return null;
@@ -79,7 +79,9 @@ export function buildTitles(state, cache = {}, { completionRatio = 0.9, extra = 
     }
   }
   const out = [];
+  const skip = new Set(ignore);
   for (const t of map.values()) {
+    if (skip.has(t.key)) continue;
     t.status = t.my_rating != null || t.watched ? 'seen' : t.watchlisted ? 'watchlist' : 'other';
     if (t.status === 'seen') t.watchlisted = false;
     out.push(t);

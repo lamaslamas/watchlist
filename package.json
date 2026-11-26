@@ -12,11 +12,12 @@
     "suggest": "node src/suggest.js",
     "rank": "node src/rank.js",
     "validate": "node src/validate.js",
-    "test": "node --test test/ranking.test.js test/site-data.test.js test/trakt.test.js",
+    "test": "node --test test/ranking.test.js test/site-data.test.js test/trakt.test.js test/addon.test.js",
     "build": "node src/build.js",
     "trakt:login": "node src/trakt-login.js",
     "trakt:seed": "node src/trakt-seed.js",
-    "sync": "node src/trakt-sync.js"
+    "sync": "node src/trakt-sync.js",
+    "addon": "node src/build-addon.js"
   },
   "dependencies": {
     "csv-parse": "^5.6.0",

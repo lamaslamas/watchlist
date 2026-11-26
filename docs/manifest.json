@@ -1,0 +1,52 @@
+{
+ "id": "io.github.lamaslamas.watchlist",
+ "version": "1.20261126.0",
+ "name": "Watchlist",
+ "description": "I film e le serie che voglio vedere, ordinati in base ai miei gusti. Solo cataloghi.",
+ "resources": [
+  "catalog"
+ ],
+ "types": [
+  "movie",
+  "series"
+ ],
+ "idPrefixes": [
+  "tt"
+ ],
+ "catalogs": [
+  {
+   "type": "movie",
+   "id": "da-vedere",
+   "name": "Da vedere per te"
+  },
+  {
+   "type": "movie",
+   "id": "sotto-100",
+   "name": "Sotto i 100 minuti"
+  },
+  {
+   "type": "movie",
+   "id": "registi",
+   "name": "Registi che ami"
+  },
+  {
+   "type": "movie",
+   "id": "suggeriti",
+   "name": "Suggeriti per te"
+  },
+  {
+   "type": "series",
+   "id": "da-vedere",
+   "name": "Da vedere per te"
+  },
+  {
+   "type": "series",
+   "id": "suggeriti",
+   "name": "Suggeriti per te"
+  }
+ ],
+ "behaviorHints": {
+  "configurable": false,
+  "configurationRequired": false
+ }
+}

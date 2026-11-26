@@ -13083,9 +13083,10 @@
   "ratings": [],
   "watchlisted": true,
   "watched": false,
-  "lb_uri": null,
+  "lb_uri": "https://boxd.it/5p4m",
   "sources": [
-   "imdb"
+   "imdb",
+   "letterboxd"
   ],
   "my_rating": null,
   "rated_at": null,
@@ -16677,9 +16678,10 @@
   "ratings": [],
   "watchlisted": true,
   "watched": false,
-  "lb_uri": null,
+  "lb_uri": "https://boxd.it/4eXS",
   "sources": [
-   "imdb"
+   "imdb",
+   "letterboxd"
   ],
   "my_rating": null,
   "rated_at": null,
@@ -19325,24 +19327,6 @@
   "status": "watchlist"
  },
  {
-  "key": "movie:217316",
-  "media": "movie",
-  "tmdb_id": 217316,
-  "imdb_id": null,
-  "name": "+1",
-  "year": 2013,
-  "ratings": [],
-  "watchlisted": true,
-  "watched": false,
-  "lb_uri": "https://boxd.it/5p4m",
-  "sources": [
-   "letterboxd"
-  ],
-  "my_rating": null,
-  "rated_at": null,
-  "status": "watchlist"
- },
- {
   "key": "movie:38674",
   "media": "movie",
   "tmdb_id": 38674,
@@ -19479,24 +19463,6 @@
   "watchlisted": true,
   "watched": false,
   "lb_uri": "https://boxd.it/32DO",
-  "sources": [
-   "letterboxd"
-  ],
-  "my_rating": null,
-  "rated_at": null,
-  "status": "watchlist"
- },
- {
-  "key": "tv:43397",
-  "media": "tv",
-  "tmdb_id": 43397,
-  "imdb_id": null,
-  "name": "Lewis & Clark - The Journey of the Corps of Discovery",
-  "year": 1997,
-  "ratings": [],
-  "watchlisted": true,
-  "watched": false,
-  "lb_uri": "https://boxd.it/4eXS",
   "sources": [
    "letterboxd"
   ],

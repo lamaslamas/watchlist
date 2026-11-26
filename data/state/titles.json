@@ -17881,24 +17881,6 @@
   "status": "watchlist"
  },
  {
-  "key": "movie:217316",
-  "media": "movie",
-  "tmdb_id": 217316,
-  "imdb_id": "tt2518788",
-  "name": "1",
-  "year": 2013,
-  "ratings": [],
-  "my_rating": null,
-  "rated_at": null,
-  "watched_at": null,
-  "watched": false,
-  "watchlisted": true,
-  "sources": [
-   "trakt"
-  ],
-  "status": "watchlist"
- },
- {
   "key": "movie:38674",
   "media": "movie",
   "tmdb_id": 38674,
@@ -20443,25 +20425,6 @@
   "imdb_id": null,
   "name": "Mob Psycho 100",
   "year": 2018,
-  "ratings": [],
-  "my_rating": null,
-  "rated_at": null,
-  "watched_at": null,
-  "watched": false,
-  "watchlisted": true,
-  "sources": [
-   "trakt",
-   "extra"
-  ],
-  "status": "watchlist"
- },
- {
-  "key": "tv:43397",
-  "media": "tv",
-  "tmdb_id": 43397,
-  "imdb_id": null,
-  "name": "Lewis & Clark - The Journey of the Corps of Discovery",
-  "year": 1997,
   "ratings": [],
   "my_rating": null,
   "rated_at": null,

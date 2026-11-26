@@ -163,3 +163,6 @@ footer { color: var(--muted); font-size: 12px; padding: 0 0 48px; border-top: 1p
 .btn.primary:disabled:hover { background: var(--accent); filter: none; }
 input[type='date'].field { width: 100%; color-scheme: inherit; }
 .note a { color: var(--accent); }
+
+footer a, .linkbtn { color: var(--accent); }
+.linkbtn { text-decoration: underline; }

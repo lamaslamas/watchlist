@@ -39,65 +39,6 @@
      "votes": 0
     }
    ]
-  },
-  {
-   "key": "lb:https://boxd.it/5p4m",
-   "title": "+1",
-   "year": 2013,
-   "reason": "più titoli con nome e anno compatibili",
-   "pick": {
-    "media": "movie",
-    "id": 217316
-   },
-   "candidates": [
-    {
-     "media": "movie",
-     "id": 217316,
-     "title": "1",
-     "year": 2013,
-     "votes": 374
-    },
-    {
-     "media": "movie",
-     "id": 176068,
-     "title": "Plus One",
-     "year": 2013,
-     "votes": 293
-    },
-    {
-     "media": "tv",
-     "id": 54303,
-     "title": "SHINee's One Fine Day",
-     "year": 2013,
-     "votes": 1
-    }
-   ]
-  },
-  {
-   "key": "lb:https://boxd.it/4eXS",
-   "title": "Lewis & Clark - The Journey of the Corps of Discovery",
-   "year": 1997,
-   "reason": "più titoli con nome e anno compatibili",
-   "pick": {
-    "media": "tv",
-    "id": 43397
-   },
-   "candidates": [
-    {
-     "media": "tv",
-     "id": 43397,
-     "title": "Lewis & Clark - The Journey of the Corps of Discovery",
-     "year": 1997,
-     "votes": 15
-    },
-    {
-     "media": "movie",
-     "id": 775012,
-     "title": "Lewis & Clark: The Journey of the Corps of Discovery",
-     "year": 1997,
-     "votes": 1
-    }
-   ]
   }
  ],
  "unresolved": [],
