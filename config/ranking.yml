@@ -61,3 +61,8 @@ tmdb:
   language: it-IT
   region: IT
   providers_refresh_days: 7
+
+trakt:
+  # Una serie esce dalla watchlist quando gli episodi visti / episodi totali (TMDB) raggiungono questa quota.
+  # Una serie con voto su Trakt è invece sempre considerata vista.
+  show_completion_ratio: 0.9

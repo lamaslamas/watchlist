@@ -133,7 +133,7 @@ for (const t of titles.values()) {
   if (t.status === 'seen') t.watchlisted = false; // visto ⇒ fuori dalla watchlist
 }
 const list = [...titles.values()];
-writeJson(p('data', 'state', 'titles.json'), list);
+writeJson(p('data', 'state', 'titles-csv.json'), list); // import iniziale da CSV: serve solo al seed verso Trakt
 writeJson(p('data', 'state', 'ambiguous.json'), { ambiguous: [...ambiguous.values()], unresolved: [...unresolved.values()], accepted_with_year_diff: [...accepted.values()] });
 const c = s => list.filter(t => t.status === s).length;
 console.log(`Titoli unici: ${list.length} (visti: ${c('seen')}, watchlist: ${c('watchlist')}, di cui con voto: ${list.filter(t => t.my_rating != null).length})`);

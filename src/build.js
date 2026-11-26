@@ -36,9 +36,9 @@ function itemOut(key, extra = {}) {
 const wl = watchlist.map(w => itemOut(w.key)).filter(Boolean);
 const sg = rk.suggestions.map(s => itemOut(s.key, { via: s.via })).filter(Boolean);
 
-// Storico dei film votati (per l'export Letterboxd "dai nuovi visti in poi"): data = quella del voto
-const history = titles.filter(t => t.my_rating != null && t.media === 'movie' && cache[t.key])
-  .map(t => ({ tmdb_id: t.tmdb_id, imdb_id: cache[t.key].data.imdb_id, title: cache[t.key].data.title, year: cache[t.key].data.year, rating: t.my_rating, at: t.rated_at }));
+// Storico dei film (per l'export Letterboxd "dai nuovi visti in poi"): votati o guardati; data = visione (Trakt) o, se manca, voto
+const history = titles.filter(t => t.media === 'movie' && cache[t.key] && (t.my_rating != null || t.watched_at))
+  .map(t => ({ tmdb_id: t.tmdb_id, imdb_id: cache[t.key].data.imdb_id, title: cache[t.key].data.title, year: cache[t.key].data.year, rating: t.my_rating ?? null, at: t.watched_at ?? t.rated_at ?? null }));
 
 const out = {
   generated_at: new Date().toISOString(),

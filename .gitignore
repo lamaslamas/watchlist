@@ -4,3 +4,6 @@ data/raw/
 node_modules/
 .DS_Store
 data/state/sources.json
+.trakt-token.json
+data/state/trakt.json
+data/state/trakt-seed-plan.json
