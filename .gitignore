@@ -7,3 +7,11 @@ data/state/sources.json
 .trakt-token.json
 data/state/trakt.json
 data/state/trakt-seed-plan.json
+# File generati dalla build/Action: non si versionano (la Action li rigenera e li pubblica su Pages)
+data/state/titles.json
+data/state/ranking.json
+data/state/suggestions.json
+docs/data/items.json
+docs/ranking.js
+docs/manifest.json
+docs/catalog/

@@ -17,7 +17,8 @@
     "trakt:login": "node src/trakt-login.js",
     "trakt:seed": "node src/trakt-seed.js",
     "sync": "node src/trakt-sync.js",
-    "addon": "node src/build-addon.js"
+    "addon": "node src/build-addon.js",
+    "update": "node src/trakt-sync.js && node src/enrich.js && node src/suggest.js && node src/enrich.js && node src/rank.js && node src/build.js && node src/build-addon.js && npm test"
   },
   "dependencies": {
     "csv-parse": "^5.6.0",

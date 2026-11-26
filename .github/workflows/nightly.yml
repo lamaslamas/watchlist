@@ -1,0 +1,89 @@
+name: Aggiornamento notturno
+
+on:
+  schedule:
+    - cron: '17 3 * * *'   # ogni notte, 03:17 UTC
+  workflow_dispatch:        # e su richiesta
+
+# Un solo aggiornamento alla volta: due rinnovi del token Trakt in parallelo si invaliderebbero a vicenda
+concurrency:
+  group: aggiornamento
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write        # salva la cache TMDB nel repo
+    env:
+      TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+      TRAKT_CLIENT_ID: ${{ secrets.TRAKT_CLIENT_ID }}
+      TRAKT_REFRESH_TOKEN: ${{ secrets.TRAKT_REFRESH_TOKEN }}
+      TRAKT_TOKEN_FILE: ${{ runner.temp }}/trakt-token.json
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # 1) Rinnovo Trakt e salvataggio IMMEDIATO del refresh token nuovo nel secret (il vecchio non vale più).
+      #    Il secret si scrive con un token GitHub limitato al solo permesso "Secrets: Read and write" su questo repo.
+      - name: Rinnova il token Trakt e aggiorna il secret
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.SECRETS_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then echo "::error::Manca il secret SECRETS_PAT (token GitHub con permesso Secrets: Read and write)"; exit 1; fi
+          NEW="$(node src/trakt-refresh.js --print-refresh-token)"
+          echo "::add-mask::$NEW"
+          for i in 1 2 3; do
+            if printf '%s' "$NEW" | gh secret set TRAKT_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY"; then ok=1; break; fi
+            sleep 5
+          done
+          if [ -z "$ok" ]; then echo "::error::Non sono riuscito a salvare il nuovo refresh token: rifai il login (npm run trakt:login) e aggiorna il secret TRAKT_REFRESH_TOKEN"; exit 1; fi
+
+      # 2) Dati: Trakt → TMDB → suggeriti → ranking → sito e addon
+      - run: node src/trakt-sync.js
+      - run: node src/enrich.js
+      - run: node src/suggest.js
+      - run: node src/enrich.js
+      - run: node src/rank.js
+      - run: node src/build.js
+      - run: node src/build-addon.js
+
+      # 3) Controlli: se qualcosa non torna, non si pubblica
+      - run: npm test
+
+      # 4) Salva nel repo solo la cache TMDB (serve alla prossima notte; il resto si rigenera)
+      - name: Salva la cache TMDB
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cache/tmdb.json
+          if git diff --cached --quiet; then echo "Cache invariata"; else git commit -m "Aggiorna la cache TMDB" && git push; fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
