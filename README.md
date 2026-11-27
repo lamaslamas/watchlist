@@ -1,4 +1,4 @@
-# watchlist
+# Cosa guardiamo?
 
 Sito statico che ordina i film e le serie che voglio vedere in base ai miei gusti, più un addon catalogo per Stremio/Nuvio servito dallo stesso sito. Tutto statico su GitHub Pages; una GitHub Action lo aggiorna ogni notte da Trakt.
 

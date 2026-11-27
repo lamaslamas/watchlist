@@ -83,7 +83,7 @@ const day = new Date().toISOString().slice(0, 10).replace(/-/g, '');
 const manifest = {
   id: 'io.github.lamaslamas.watchlist',
   version: `1.${day}.0`, // semver crescente a ogni build: i client ricaricano i cataloghi
-  name: 'Watchlist',
+  name: 'Cosa guardiamo?',
   description: 'I film e le serie che voglio vedere, ordinati in base ai miei gusti. Solo cataloghi.',
   resources: ['catalog'],
   types: ['movie', 'series'],
