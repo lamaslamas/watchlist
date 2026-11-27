@@ -10,6 +10,9 @@ const rk = readJson(p('data', 'state', 'ranking.json'));
 if (!rk) throw new Error('Esegui prima: npm run rank');
 const cache = readJson(p('data', 'cache', 'tmdb.json'));
 const site = readJson(p('config', 'site.json'), {});
+const traktState = readJson(p('data', 'state', 'trakt.json'), {});
+// Il client ID di Trakt non è un segreto (compare nell'URL di autorizzazione): serve al login dal browser
+let clientId = null; try { clientId = (await import('./lib/trakt.js')).clientId(); } catch {}
 
 const ids = l => (l ?? []).map(x => ({ id: x.id }));
 const named = l => (l ?? []).map(x => ({ id: x.id, name: x.name }));
@@ -29,7 +32,7 @@ function itemOut(key, extra = {}) {
   const d = e.data;
   return {
     key, media: d.media, tmdb_id: d.id, imdb_id: d.imdb_id, title: d.title, original_title: d.original_title !== d.title ? d.original_title : undefined,
-    overview: d.overview, runtime: d.runtime, seasons: d.seasons, poster: d.poster, providers: providers(e.providers), ...extra,
+    overview: d.overview, runtime: d.runtime, seasons: d.seasons, poster: d.poster, certs: d.certs ?? null, providers: providers(e.providers), ...extra,
     d: { year: d.year, vote_average: d.vote_average, vote_count: d.vote_count, genres: named(d.genres), directors: named(d.directors), cast: named(d.cast), countries: d.countries, keywords: named(d.keywords) },
   };
 }
@@ -43,10 +46,13 @@ const history = titles.filter(t => t.media === 'movie' && cache[t.key] && (t.my_
 const out = {
   generated_at: new Date().toISOString(),
   last_letterboxd_export: site.letterboxd_last_export ?? null,
+  trakt_client_id: clientId,
+  together: (traktState.together ?? []).map(x => `${x.media}:${x.tmdb}`),
   bands: cfg.bands.map(b => ({ name: b.name, short: b.short ?? b.name })),
   cfg, rated: ratedOut, watchlist: wl, suggestions: sg, history,
 };
 writeJson(p('docs', 'data', 'items.json'), out, false);
 fs.copyFileSync(p('src', 'ranking.js'), p('docs', 'ranking.js'));
+fs.copyFileSync(p('src', 'occasions.js'), p('docs', 'occasions.js'));
 const kb = fs.statSync(p('docs', 'data', 'items.json')).size / 1024;
 console.log(`items.json: ${kb.toFixed(0)} KB — votati ${ratedOut.length}, watchlist ${wl.length}, suggeriti ${sg.length}, storico film ${history.length}`);

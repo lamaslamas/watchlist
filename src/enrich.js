@@ -4,6 +4,7 @@
 // Uso: node src/enrich.js [--force-providers]
 import { p, readJson, writeJson, loadConfig } from './lib/util.js';
 import { tmdb, pool } from './lib/tmdb.js';
+import { certsOf } from './lib/certs.js';
 
 const cfg = loadConfig();
 const REGION = cfg.tmdb.region;
@@ -47,12 +48,13 @@ function shape(media, d, en) {
     poster: d.poster_path || en?.poster_path || null,
     vote_average: d.vote_average ?? null, vote_count: d.vote_count ?? 0,
     collection: d.belongs_to_collection?.id ?? null,
+    certs: certsOf(media, media === 'movie' ? d.release_dates : d.content_ratings),
   };
 }
 
 async function fetchFull(t) {
   const path = `/${t.media}/${t.tmdb_id}`;
-  const append = 'credits,keywords,external_ids,watch/providers';
+  const append = 'credits,keywords,external_ids,watch/providers,' + (t.media === 'movie' ? 'release_dates' : 'content_ratings');
   const d = await tmdb(path, { language: cfg.tmdb.language, append_to_response: append });
   if (!d) return null;
   // Se in italiano manca trama o locandina, ripiego sull'inglese
@@ -72,6 +74,16 @@ await pool(missing, 8, async t => {
   if (e) cache[t.key] = e; else failed.push(t.key);
   if (++done % 100 === 0) console.log(`  ${done}/${missing.length}`);
 });
+
+// Classificazione per età: i titoli già in cache prima che la leggessimo si completano una volta sola
+const noCerts = wanted.filter(t => cache[t.key] && cache[t.key].data.certs === undefined);
+if (noCerts.length) {
+  await pool(noCerts, 8, async t => {
+    const res = await tmdb(`/${t.media}/${t.tmdb_id}/${t.media === 'movie' ? 'release_dates' : 'content_ratings'}`);
+    cache[t.key].data.certs = certsOf(t.media, res);
+  });
+  console.log(`Classificazioni per età aggiunte: ${noCerts.length}`);
+}
 
 // Aggiornamento settimanale dei provider (solo watchlist)
 const stale = wanted.filter(t => t.status !== 'seen' && cache[t.key] &&

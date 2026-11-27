@@ -142,7 +142,7 @@ footer { color: var(--muted); font-size: 12px; padding: 0 0 48px; border-top: 1p
 .toast { position: fixed; left: 50%; bottom: 24px; z-index: 60; transform: translate(-50%, 20px); opacity: 0; background: var(--text); color: var(--bg); padding: 10px 18px; border-radius: 999px; transition: .25s var(--ease); pointer-events: none; font-size: 14px; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 @media (max-width: 640px) {
-  .top-row { gap: 10px; } .brand { font-size: 20px; } .tabs { margin-left: 0; }
+  .top-row { gap: 10px; }  .tabs { margin-left: 0; }
   .tab { padding: 7px 10px; font-size: 14px; } .tab .n { display: none; }
   .toolbar { gap: 8px; padding-bottom: 12px; }
   .search { order: 1; flex: 1 1 0; min-width: 0; }
@@ -166,3 +166,32 @@ input[type='date'].field { width: 100%; color-scheme: inherit; }
 
 footer a, .linkbtn { color: var(--accent); }
 .linkbtn { text-decoration: underline; }
+
+/* Occasioni */
+.occasions { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding: 0 0 14px; margin: 0 calc(var(--gutter) * -1); padding-inline: var(--gutter); }
+.occasions::-webkit-scrollbar { display: none; }
+.occ { flex-shrink: 0; height: 36px; padding: 0 16px; border-radius: 999px; background: var(--surface); color: var(--muted); border: 1px solid transparent; white-space: nowrap; transition: background .15s, color .15s; }
+.occ:hover { color: var(--text); }
+.occ[aria-pressed='true'] { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+@media (min-width: 1432px) { .occasions { margin: 0; padding-inline: 0; flex-wrap: wrap; overflow: visible; } }
+/* Accesso a Trakt */
+.trakt-btn { height: 36px; padding: 0 14px; border-radius: 999px; display: inline-flex; align-items: center; gap: 8px; color: var(--muted); transition: color .15s, background .15s; }
+.trakt-btn:hover { color: var(--text); background: var(--surface); }
+.trakt-btn svg { width: 18px; height: 18px; display: none; }
+.trakt-btn .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); opacity: .5; }
+.trakt-btn.on .dot { background: #5fc88a; opacity: 1; }
+.act-row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; padding-top: 22px; border-top: 1px solid var(--line); }
+.act-row + .seen-box { margin-top: 22px; }
+.act-row .btn[aria-pressed='true'] { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.act-row .btn:disabled { opacity: .6; cursor: default; }
+.account-in p { margin: 0 0 14px; }
+.account-in .btn { width: 100%; margin-bottom: 10px; }
+.account-in .warn { color: var(--accent); }
+@media (max-width: 640px) {
+  .brand { display: none; } .tab .x { display: none; }
+  .tab { padding: 8px 10px; } .tab .n { display: none; }
+  .icon-btn, .trakt-btn { flex-shrink: 0; }
+  .trakt-btn { position: relative; width: 36px; padding: 0; justify-content: center; }
+  .trakt-btn svg { display: block; } #trakt-label { display: none; }
+  .trakt-btn .dot { position: absolute; top: 5px; right: 4px; width: 9px; height: 9px; box-shadow: 0 0 0 2px var(--bg); }
+}

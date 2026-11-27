@@ -33,3 +33,13 @@ test('segnare un titolo come visto lo toglie dalle liste e lo aggiunge al profil
   const dir = target.d.directors[0]?.id;
   if (dir != null) assert.ok((after.profile.table.directors.get(dir)?.w ?? 0) >= (base.profile.table.directors.get(dir)?.w ?? 0) - 1e-9);
 });
+
+test('i dati del sito portano classificazioni, lista "insieme" e client ID (pubblico) per il login Trakt', () => {
+  assert.ok(Array.isArray(data.together));
+  assert.ok(data.trakt_client_id === null || /^[\w-]{20,}$/.test(data.trakt_client_id));
+  const withCerts = [...data.watchlist, ...data.suggestions].filter(i => i.certs);
+  assert.ok(withCerts.length > 500, 'classificazioni per età presenti');
+  // niente segreti nei file pubblicati
+  const raw = fs.readFileSync(p('docs', 'data', 'items.json'), 'utf8');
+  assert.ok(!/refresh_token|access_token|TMDB_TOKEN|client_secret/i.test(raw));
+});

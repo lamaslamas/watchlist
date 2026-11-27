@@ -111,13 +111,27 @@ export async function getAll(path, query = {}) {
 // ---- Lettura dello stato completo (normalizzato) ----
 const ids = (o, media, extra = {}) => ({ media, tmdb: o?.ids?.tmdb ?? null, imdb: o?.ids?.imdb ?? null, title: o?.title, year: o?.year ?? null, ...extra });
 
-export async function readState() {
+/** Lista personale (es. "insieme"): [{ media, tmdb }]. Se non esiste, vuota; se Trakt non risponde, null (non blocca l'aggiornamento). */
+async function readList(name) {
+  try {
+    const { data: lists } = await trakt('GET', '/users/me/lists');
+    const l = (lists ?? []).find(x => String(x.name).trim().toLowerCase() === name.trim().toLowerCase());
+    if (!l) return [];
+    const items = await getAll(`/users/me/lists/${l.ids.trakt}/items`);
+    return items.filter(x => x.type === 'movie' || x.type === 'show')
+      .map(x => ({ media: x.type === 'movie' ? 'movie' : 'tv', tmdb: (x.movie ?? x.show)?.ids?.tmdb ?? null })).filter(x => x.tmdb);
+  } catch (e) { console.warn(`Lista Trakt "${name}" non letta: ${e.message}`); return null; }
+}
+
+export async function readState({ togetherList } = {}) {
   // in sequenza: il limitatore di richieste è unico e le chiamate sono poche
   const rm = await getAll('/sync/ratings/movies'), rs = await getAll('/sync/ratings/shows');
   const wm = await getAll('/sync/watchlist/movies'), ws = await getAll('/sync/watchlist/shows');
   const vm = await getAll('/sync/watched/movies'), vs = await getAll('/sync/watched/shows');
+  const together = togetherList ? await readList(togetherList) : null;
   return {
     fetched_at: new Date().toISOString(),
+    together,
     ratings: [...rm.map(x => ids(x.movie, 'movie', { rating: x.rating, at: x.rated_at })), ...rs.map(x => ids(x.show, 'tv', { rating: x.rating, at: x.rated_at }))],
     watchlist: [...wm.map(x => ids(x.movie, 'movie', { at: x.listed_at })), ...ws.map(x => ids(x.show, 'tv', { at: x.listed_at }))],
     watched: [

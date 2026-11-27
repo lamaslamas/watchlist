@@ -7,7 +7,7 @@ import { buildTitles } from './lib/trakt-logic.js';
 
 const force = process.argv.includes('--force');
 const cfg = loadConfig();
-const state = await readState();
+const state = await readState({ togetherList: cfg.occasions?.partner?.together_list });
 writeJson(p('data', 'state', 'trakt.json'), state);
 
 const cache = readJson(p('data', 'cache', 'tmdb.json'), {});

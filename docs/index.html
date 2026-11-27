@@ -23,10 +23,11 @@
   <div class="wrap top-row">
     <a class="brand" href="./" aria-label="watchlist">watchlist</a>
     <nav class="tabs" role="tablist" aria-label="Sezioni">
-      <button class="tab" role="tab" id="tab-wl" aria-selected="true">La mia watchlist<span class="n" id="n-wl"></span></button>
-      <button class="tab" role="tab" id="tab-sg" aria-selected="false">Suggeriti per te<span class="n" id="n-sg"></span></button>
+      <button class="tab" role="tab" id="tab-wl" aria-selected="true"><span class="x">La mia </span>watchlist<span class="n" id="n-wl"></span></button>
+      <button class="tab" role="tab" id="tab-sg" aria-selected="false">Suggeriti<span class="x"> per te</span><span class="n" id="n-sg"></span></button>
     </nav>
     <span class="spacer"></span>
+    <button class="trakt-btn" id="trakt-btn" aria-haspopup="dialog" title="Accedi a Trakt"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8.5" r="3.6"/><path d="M5 20c.8-3.6 3.8-5.6 7-5.6s6.2 2 7 5.6"/></svg><span class="dot" aria-hidden="true"></span><span id="trakt-label">Trakt</span></button>
     <button class="icon-btn" id="open-export" aria-label="Esporta" title="Esporta CSV">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5v11M7.5 10.5 12 15l4.5-4.5M4.5 19.5h15"/></svg>
     </button>
@@ -53,6 +54,14 @@
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg>
         Filtri <span class="badge" id="fbadge" hidden>0</span>
       </button>
+    </div>
+    <div class="occasions" id="occasions" role="group" aria-label="Occasione">
+      <button class="occ" data-occ="family" aria-pressed="false">In famiglia</button>
+      <button class="occ" data-occ="partner" aria-pressed="false">Con la mia compagna</button>
+      <button class="occ" data-occ="together" aria-pressed="false">Scelti insieme</button>
+      <button class="occ" data-occ="light" aria-pressed="false">Leggero</button>
+      <button class="occ" data-occ="heavy" aria-pressed="false">Impegnativo</button>
+      <button class="occ" data-occ="short" aria-pressed="false" id="occ-short">Sotto i 100 min</button>
     </div>
   </div>
 </header>
@@ -97,7 +106,12 @@
   <div class="group"><span class="lbl">Altro</span>
     <button class="btn" id="x-ratings" style="width:100%;margin-bottom:8px">Tutti i miei voti (film)</button>
     <button class="btn" id="x-list" style="width:100%">Lista ordinata come la vedi (film)</button></div>
-  <div class="group"><button class="btn" id="x-undo" style="width:100%" hidden>Ripristina i titoli segnati come visti qui</button></div>
+  <div class="group"><button class="btn" id="x-undo" style="width:100%" hidden>Ripristina i visti salvati in questo browser</button></div>
+</aside>
+
+<aside class="sheet panel" id="account" role="dialog" aria-modal="true" aria-labelledby="account-title" aria-hidden="true">
+  <div class="panel-head"><h2 id="account-title">Trakt</h2><button class="icon-btn" id="close-account" aria-label="Chiudi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button></div>
+  <div id="account-in" class="account-in"></div>
 </aside>
 
 <article class="sheet detail" id="detail" role="dialog" aria-modal="true" aria-labelledby="d-title" aria-hidden="true">

@@ -76,3 +76,43 @@ addon:
   suggestions_movie: 100        # suggeriti film nel catalogo
   suggestions_tv: 50            # suggeriti serie nel catalogo (separati dal ranking del sito)
 
+
+# Occasioni: pulsanti sotto la barra di ricerca del sito. Nomi dei generi in italiano (come li dà TMDB), keyword in inglese.
+occasions:
+  # "In famiglia": classificazione per età adatta a tutti, niente generi esclusi, premia i generi preferiti
+  family:
+    # Valori TMDB ammessi. IT: T = per tutti, 6+ = dai 6 anni. US: G, PG e le sigle TV.
+    certifications:
+      IT: ["T", "6+"]
+      US: ["G", "PG", "TV-Y", "TV-Y7", "TV-G", "TV-PG"]
+    # In Italia "T" è molto permissivo (passa anche Bastardi senza gloria): con strict anche la classificazione US,
+    # se presente, deve essere tra quelle ammesse. Con false conta solo quella IT (US solo se manca l'IT).
+    strict: true
+    exclude_genres: ["Horror", "Crime", "Thriller", "Guerra"]
+    # Keyword TMDB (inglese) che escludono il titolo: la classificazione per età da sola lascia passare molti film per adulti
+    exclude_keywords: ["murder", "serial killer", "rape", "torture", "suicide", "drugs", "drug dealer", "prostitute", "gore", "violence", "brutality", "sex", "nudity", "erotic", "alcoholism", "addiction"]
+    # Serve almeno uno di questi generi (lista vuota = nessun obbligo): "T" in Italia passa anche Stalker o La strada, quindi la sola età non basta
+    require_genres: ["Animazione", "Avventura", "Commedia", "Famiglia", "Fantasy"]
+    # Senza alcuna classificazione: "genres" ammette solo i titoli con uno di questi generi, "none" li esclude
+    unknown: genres
+    unknown_genres: ["Animazione", "Famiglia"]
+    # Nell'ordinamento per ranking, con "In famiglia" attivo, questi generi aggiungono punti al punteggio
+    prefer_genres: ["Animazione", "Avventura", "Commedia", "Famiglia"]
+    prefer_bonus: 6
+  # "Con la mia compagna": regole di esclusione. In più c'è il pulsante "Scelti insieme" (lista Trakt "insieme")
+  partner:
+    exclude_genres: ["Horror"]
+    max_runtime: 150          # minuti, solo per i film
+    together_list: "insieme"  # nome della lista personale su Trakt
+  # Umore: un titolo è "leggero" o "impegnativo" se uno dei due punteggi supera l'altro di almeno `margin`
+  mood:
+    genre_weight: 1
+    keyword_weight: 0.5
+    margin: 1
+    light:
+      genres: ["Commedia", "Animazione", "Famiglia", "Avventura", "Musica"]
+      keywords: ["hilarious", "amused", "feel good", "heartwarming", "whimsical", "lighthearted", "buddy comedy", "parody", "slapstick", "friendship", "road trip", "romantic comedy", "cheerful", "playful", "adventure"]
+    heavy:
+      genres: ["Dramma", "Guerra", "Storia", "Documentario", "War & Politics"]
+      keywords: ["based on true story", "dystopia", "psychological drama", "psychological thriller", "suicide", "rape", "torture", "mental illness", "loss of loved one", "dying and death", "depressing", "disturbed", "tragic", "melancholy", "racism", "holocaust", "world war ii", "grief", "philosophical", "tragedy", "dramatic", "intense", "complex"]
+  short_runtime: 100          # pulsante "Sotto 100 min" (solo film)
